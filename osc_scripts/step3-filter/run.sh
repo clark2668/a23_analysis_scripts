@@ -3,8 +3,11 @@
 #PBS -l mem=4GB
 #PBS -l walltime=01:00:00
 #PBS -A PCON0003
-#PBS -e /fs/scratch/PAS0654/ara/10pct/err_out_logs
-#PBS -o /fs/scratch/PAS0654/ara/10pct/err_out_logs
+#PBS -e /fs/scratch/PAS0654/ara/sim/err_out_logs
+#PBS -o /fs/scratch/PAS0654/ara/sim/err_out_logs
+
+#/fs/scratch/PAS0654/ara/10pct/err_out_logs
+#/fs/scratch/PAS0654/ara/10pct/err_out_logs
 
 eval 'source /users/PAS0654/osu0673/A23_analysis_new2/env.sh'
 
