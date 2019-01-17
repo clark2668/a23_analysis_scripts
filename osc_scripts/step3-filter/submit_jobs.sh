@@ -30,7 +30,7 @@ export SummaryDir
 RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
 export RunDir
 
-readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
+readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_short.txt
 counter=0
 while read line1
 do
@@ -41,7 +41,7 @@ do
 
 	echo $line1
 
-	qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_'$counter run.sh
+	qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_filter_'$counter run.sh
 	counter=$((counter+1))
 
 done < $readfile
