@@ -12,13 +12,19 @@ simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
+energy='18'
+echo '[Energy: ' $energy ']'
+export energy
+
 #where should the outputs be stored?
-OutputDir="/fs/scratch/PAS0654/ara/10pct/CompareFilter/A${station}/${year}"
+# OutputDir="/fs/scratch/PAS0654/ara/10pct/CompareFilter/A${station}/${year}"
+OutputDir="/fs/scratch/PAS0654/ara/sim/CompareFilter/A${station}/E${energy}"
 echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
 #what error file should we write to?
-ErrFile="/fs/scratch/PAS0654/ara/10pct/CompareFilter/problems_A${station}_${year}.txt"
+# ErrFile="/fs/scratch/PAS0654/ara/10pct/CompareFilter/data_filterproblems_A${station}_${year}.txt"
+ErrFile="/fs/scratch/PAS0654/ara/sim/CompareFilter/sim_filterproblems_A${station}_E${energy}.txt"
 echo '[ Run summary directory: ' $SummaryDir ' ]'
 export SummaryDir
 
@@ -30,7 +36,8 @@ export SummaryDir
 RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
 export RunDir
 
-readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_short.txt
+# readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
+readfile=../step1-make_ped_pairs/A${station}_E${energy}_sim_files.txt
 counter=0
 while read line1
 do
