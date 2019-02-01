@@ -16,30 +16,30 @@ done
 wait
 pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
 
-for i in {41..80}
-do
-	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
-done
-wait
-pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
+# for i in {41..80}
+# do
+# 	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
+# done
+# wait
+# pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
 
-for i in {81..120}
-do
-	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
-done
-wait
-pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
+# for i in {81..120}
+# do
+# 	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
+# done
+# wait
+# pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
 
-for i in {121..160}
-do
-	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
-done
-wait
-pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
+# for i in {121..160}
+# do
+# 	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
+# done
+# wait
+# pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
 
-for i in {161..200}
-do
-	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
-done
-wait
-pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
+# for i in {161..200}
+# do
+# 	./AraSim $INPUTFILE $(($i+$OFFSET)) $TMPDIR & 
+# done
+# wait
+# pbsdcp $TMPDIR/'*.root' $OUTPUT_DIR
