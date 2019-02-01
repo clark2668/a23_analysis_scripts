@@ -1,6 +1,8 @@
 #!/bin/bash
 
-declare -a en=("16" "17" "18" "19" "20")
+# declare -a en=("16" "17" "18" "19" "20")
+declare -a en=("18")
+station="2"
 
 for j in "${en[@]}"
 do
@@ -8,9 +10,9 @@ do
 	offset=0
 	export offset
 
-	AraSimDir='/users/PAS0654/osu0673/A23_analysis/arasim/trunk'
-	SetUpFile='/users/PAS0654/osu0673/A23_analysis/arasim/trunk/SETUP/ara2_E'$j'.txt'
-	OutputDir='/fs/scratch/PAS0654/ara_source/sim/sky_coverage/RawSim/E'$j
+	AraSimDir='/users/PAS0654/osu0673/A23_analysis_new2/araSIM'
+	SetUpFile='/users/PAS0654/osu0673/A23_analysis_new2/a23_analysis_scripts/osc_scripts/run_arasim/setup_files/A'$station'_E'$j'.txt'
+	OutputDir='/fs/scratch/PAS0654/ara/sim/RawSim/A'$station'/E'$j
 
 	export AraSimDir
 	export SetUpFile
