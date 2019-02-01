@@ -1,7 +1,7 @@
 //the neutrinos
 EXPONENT=18 //kotera max
-NNU=25000
-NNU_PASSED=10
+NNU=50000
+NNU_PASSED=1
 ONLY_PASSED_EVENTS=0 // AraSim throws events until it reaches NNU_PASSED
 
 //the interaction location of the neutrino
