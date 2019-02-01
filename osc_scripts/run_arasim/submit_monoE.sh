@@ -35,6 +35,6 @@ do
 	if [ "$j" -eq "16" -o "$j" -eq "165" ]
 	then
 		offset=$((offset+200))
-		qsub  -v INPUTFILE=$SetUpFile,RUN_DIR=$AraSimDir,OUTPUT_DIR=$OutputDir,OFFSET=$offset -N 'arasim_E'$j'_set'$offset run_monoE.sh
+		qsub  -v INPUTFILE=$SetUpFile,RUN_DIR=$AraSimDir,OUTPUT_DIR=$OutputDir,OFFSET=$offset -N 'arasim_A'$sation'_E'$j'_set'$offset run_monoE.sh
 	fi
 done
