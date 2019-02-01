@@ -38,5 +38,5 @@ TRIG_MODE=0 // use vpol, hpol separated trigger mode
 
 //data output
 DATA_SAVE_MODE=1 // 1: just save the final waveform
-DATA_LIKE_OUTPUT=2 // 1: triggered events only
-FILL_TREE_MODE=0 // 0: save all generated
+DATA_LIKE_OUTPUT=1 // 1: triggered events only
+FILL_TREE_MODE=2 // 2: save triggered only
