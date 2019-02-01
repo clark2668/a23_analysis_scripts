@@ -2,8 +2,8 @@
 #PBS -l nodes=1:ppn=40
 #PBS -l walltime=48:00:00
 #PBS -A PCON0003
-#PBS -e /fs/scratch/PAS0654/ara_source/sim/sky_coverage/err_out_logs
-#PBS -o /fs/scratch/PAS0654/ara_source/sim/sky_coverage/err_out_logs
+#PBS -e /fs/scratch/PAS0654/ara/sim/err_out_logs
+#PBS -o /fs/scratch/PAS0654/ara/sim/err_out_logs
 
 eval 'source /users/PAS0654/osu0673/A23_analysis/env.sh'
 
