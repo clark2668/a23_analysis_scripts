@@ -1,7 +1,7 @@
 //the neutrinos
 EXPONENT=18 //kotera max
 NNU=50000
-NNU_PASSED=1
+NNU_PASSED=3
 ONLY_PASSED_EVENTS=0 // AraSim throws events until it reaches NNU_PASSED
 
 //the interaction location of the neutrino
@@ -29,7 +29,8 @@ SIMULATION_MODE=1 //more accurate time domain Askaryan simulation
 NOISE_WAVEFORM_GENERATE_MODE=0 // generate new noise waveforms for each events
 NOISE_EVENTS=16 // number of pure noise waveforms
 TRIG_ANALYSIS_MODE=0 // 0 = signal + noise, 1 = signal only, 2 = noise only
-TRIG_SCAN_MODE=1
+TRIG_SCAN_MODE=0
+NOISE=0 //flat thermal noise
 
 //triggering
 POWERTHRESHOLD=-6.06 // 100Hz global trig rate for 3 out of 16 ARA stations
@@ -37,6 +38,6 @@ V_MIMIC_MODE=0 // 0 : global trig is located center of readout windows/ standard
 TRIG_MODE=0 // use vpol, hpol separated trigger mode
 
 //data output
-DATA_SAVE_MODE=1 // 1: just save the final waveform
+DATA_SAVE_MODE=2 // 2: save no waveform information
 DATA_LIKE_OUTPUT=1 // 1: triggered events only
 FILL_TREE_MODE=2 // 2: save triggered only
