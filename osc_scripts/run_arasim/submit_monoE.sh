@@ -2,7 +2,8 @@
 
 # declare -a en=("16" "17" "18" "19" "20")
 declare -a en=("18")
-station="3"
+station="2"
+echo $station
 
 for j in "${en[@]}"
 do
@@ -30,7 +31,7 @@ do
 	echo "--------------------------------------------"
 	echo ""
 
-	qsub  -v INPUTFILE=$SetUpFile,RUN_DIR=$AraSimDir,OUTPUT_DIR=$OutputDir,OFFSET=$offset -N 'arasim_E'$j'_set'$offset run_monoE.sh
+	qsub  -v INPUTFILE=$SetUpFile,RUN_DIR=$AraSimDir,OUTPUT_DIR=$OutputDir,OFFSET=$offset -N 'arasim_A'$station'_E'$j'_set'$offset run_monoE.sh
 
 	if [ "$j" -eq "16" -o "$j" -eq "165" ]
 	then
