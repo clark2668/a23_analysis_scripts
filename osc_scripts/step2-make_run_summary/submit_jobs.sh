@@ -13,7 +13,7 @@ echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
 #where should the outputs be stored?
-OutputDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/E${energy}"
+OutputDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
 echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
