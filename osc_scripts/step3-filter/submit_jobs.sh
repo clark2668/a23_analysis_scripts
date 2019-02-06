@@ -18,14 +18,14 @@ export energy
 
 if [ $simulation == '1' ] #is simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/sim/CompareFilter/A${station}/E${energy}"
-	ErrFile="/fs/scratch/PAS0654/ara/sim/CompareFilter/sim_filterproblems_A${station}_E${energy}.txt"
+	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/E${energy}"
+	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_filterproblems_A${station}_E${energy}.txt"
 	readfile=../step1-make_ped_pairs/A${station}_E${energy}_sim_files.txt
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/10pct/CompareFilter/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/CompareFilter/data_filterproblems_A${station}_${year}.txt"
-	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
+	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
+	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
+	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_short.txt
 fi
 
 #where should the outputs be stored?
