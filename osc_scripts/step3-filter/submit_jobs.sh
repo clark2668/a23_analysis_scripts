@@ -47,18 +47,18 @@ echo '[ Read file: ' $readfile ' ]'
 RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
 export RunDir
 
-# counter=0
-# while read line1
-# do
+counter=0
+while read line1
+do
 	
-# 	sa1=($line1)
-# 	f1=${sa1[0]}
-# 	p1=${sa1[1]}
+	sa1=($line1)
+	f1=${sa1[0]}
+	p1=${sa1[1]}
 
-# 	echo $line1
+	echo $line1
 
-# 	# qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_datafilter_'$counter run.sh
-# 	qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_E'$energy'_simfilter_'$counter run.sh
-# 	counter=$((counter+1))
+	# qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_datafilter_'$counter run.sh
+	qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_E'$energy'_simfilter_'$counter run.sh
+	counter=$((counter+1))
 
-# done < $readfile
+done < $readfile
