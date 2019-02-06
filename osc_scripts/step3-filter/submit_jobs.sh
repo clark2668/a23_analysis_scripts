@@ -59,10 +59,10 @@ do
 
 	if [ $simulation == '1' ] #is simulation
 	then
-		qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_E'$energy'_simfilter_'$counter run.sh
+		qsub -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_E'$energy'_simfilter_'$counter run.sh
 	elif [ $simulation == '0' ] #is not simulation
 	then
-		qsub -v ERRFILE=$ErrFilek,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_datafilter_'$counter run.sh
+		qsub -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_datafilter_'$counter run.sh
 	fi
 
 	counter=$((counter+1))
