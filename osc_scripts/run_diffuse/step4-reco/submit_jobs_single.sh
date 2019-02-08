@@ -4,7 +4,7 @@ station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2013"
+year="2014"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -27,11 +27,11 @@ export RunDir
 
 #we have to define where in the radii selection we want to be
 #usually choose either 19-20 which is 300m
-RadiusBinBegin=19
-RadiusBinEnd=20
+#RadiusBinBegin=19
+#RadiusBinEnd=20
 #or choose 6-7 which is 41m
-# RadiusBinBegin=6
-# RadiusBinEnd=7
+RadiusBinBegin=6
+RadiusBinEnd=7
 echo '[ Radius start and stop: ' $RadiusBinBegin ' , ' $RadiusBinEnd ' ]'
 
 #we have to define where in the list of data files we want to start
