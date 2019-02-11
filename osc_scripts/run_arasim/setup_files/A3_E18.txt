@@ -20,7 +20,6 @@ SHOWER_MODE=2						// both EM and hadronic shower in t-domain signal
 number_of_stations=1
 DETECTOR=4 							// import settings from AraRoot
 DETECTOR_STATION=3 					// mimic station 3
-READGEOM=1							// yes, read the SQLite geometry
 NOFZ=1 								// use a depth dependent index of refraction
 RAYSOL_RANGE=9000					// try to solve the ray if it's closer than 5500 meters
 core_x=10000
