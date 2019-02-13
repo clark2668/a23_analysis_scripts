@@ -4,7 +4,7 @@ station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2014"
+year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
