@@ -10,7 +10,7 @@ eval 'source /users/PAS0654/osu0673/A23_analysis/env.sh'
 
 cd $RUNDIR
 
-./bin/v2_SaveVals $STATION $YEAR $TMPDIR $FILE
+./bin/v2_SaveVals $STATION $YEAR $DROPCHANS $TMPDIR $FILE
 
 if [ $? -ne 0 ] #error handle
 then
