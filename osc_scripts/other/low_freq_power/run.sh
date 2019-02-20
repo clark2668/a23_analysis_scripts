@@ -7,20 +7,12 @@
 #PBS -o /fs/scratch/PAS0654/ara/10pct/LowFreqPower/err_out_log/
 
 # source your own shell script here
-eval 'source /users/PAS0654/osu0673/A23_analysis/env.sh'
-
-# $RUNDIR was defined in the submission script 
-# along with $FILE and $OUTPUTDIR
+eval 'source /users/PAS0654/osu0673/A23_analysis_new2/env.sh'
 
 cd $RUNDIR
 
-# $TMPDIR is the local memory of this specific node
-# it's the only variable we didn't have to define
+./bin/LowFreqPower $STATION $YEAR $FILE $TMPDIR
 
-./bin/SaveLowFreqPower $STATION $YEAR $FILE $TMPDIR
- 
-# after we're done
-# we copy the results to the $OUTPUTDIR
 
 if [ $? -ne 0 ] #error handle
 then

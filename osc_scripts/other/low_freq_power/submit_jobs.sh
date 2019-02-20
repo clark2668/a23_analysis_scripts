@@ -9,7 +9,7 @@ echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
 #where is your executable compiled?
-RunDir="/users/PAS0654/osu0673/A23_analysis/araROOT"
+RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
 export RunDir
 
 #define the list of runs to execute on
