@@ -4,7 +4,7 @@ station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2016"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -25,7 +25,7 @@ elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
 	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
-	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
+	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_short.txt
 fi
 
 #where should the outputs be stored?
@@ -44,7 +44,7 @@ export SummaryDir
 #what is the read file
 echo '[ Read file: ' $readfile ' ]'
 
-RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
+RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
 
 counter=0
