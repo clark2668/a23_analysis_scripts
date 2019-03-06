@@ -1,10 +1,10 @@
 #!/bin/bash
 
-station="3"
+station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2016"
+year="2015"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -22,7 +22,7 @@ echo '[ DropBadChans?: ' $DropBadChans ' ]'
 export DropBadChans
 
 
-RunDir="/users/PAS0654/osu0673/A23_analysis/araROOT"
+RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
 
 readfile=A${station}_${year}_MergedFiles.txt
