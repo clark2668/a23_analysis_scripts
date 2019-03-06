@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="3"
+station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -8,7 +8,7 @@ year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
@@ -44,7 +44,7 @@ export SummaryDir
 #what is the read file
 echo '[ Read file: ' $readfile ' ]'
 
-RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
+RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
 
 counter=0
