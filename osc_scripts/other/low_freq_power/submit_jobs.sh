@@ -1,7 +1,7 @@
 #!/bin/bash
 
 station="3"
-year="2014"
+year="2015"
 
 #where should the outputs be stored?
 OutputDir="/fs/scratch/PAS0654/ara/10pct/LowFreqPower/A${station}/${year}"
