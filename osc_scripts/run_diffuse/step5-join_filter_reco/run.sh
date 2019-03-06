@@ -6,7 +6,7 @@
 #PBS -e /fs/scratch/PAS0654/ara/10pct/err_out_logs
 #PBS -o /fs/scratch/PAS0654/ara/10pct/err_out_logs
 
-eval 'source /users/PAS0654/osu0673/A23_analysis/env.sh'
+eval 'source /users/PAS0654/osu0673/A23_analysis_new2/env.sh'
 
 cd $RUNDIR
 

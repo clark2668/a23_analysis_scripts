@@ -4,7 +4,7 @@ station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2016"
+year="2015"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -17,7 +17,7 @@ ProcDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
 echo '[ Proc file directory: ' $ProcDir ' ]'
 export ProcDir
 
-RunDir="/users/PAS0654/osu0673/A23_analysis/araROOT"
+RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
 
 readfile=A${station}FilterList_1in10_${year}.txt
