@@ -26,7 +26,7 @@ export ErrFile
 readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
 echo '[ Read file: ' $readfile ' ]'
 
-RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
+RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
 
 counter=0
