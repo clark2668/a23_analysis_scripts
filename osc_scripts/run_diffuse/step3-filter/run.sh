@@ -13,7 +13,7 @@ eval 'source /users/PAS0654/osu0673/A23_analysis_new2/env.sh'
 
 cd $RUNDIR
 
-./bin/v2_Filter $SIMULATION $STATION $SUMMARYDIR $TMPDIR $FILE $PED
+./bin/v2_Filter $SIMULATION $STATION $YEAR $SUMMARYDIR $TMPDIR $FILE $PED
 
 if [ $? -ne 0 ] #error handle
 then
