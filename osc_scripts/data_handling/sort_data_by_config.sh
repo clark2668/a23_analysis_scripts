@@ -3,7 +3,7 @@
 station=$1
 year=$2
 if [[ $station -eq 0 || $year -eq 0 ]] ; then
-    echo 'Error in usage! Run like: bash sort_by_config.sh station'
+    echo 'Error in usage! Run like: bash sort_by_config.sh <station> <year>'
     exit 1
 fi
 
