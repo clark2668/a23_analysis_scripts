@@ -46,7 +46,7 @@ do
 		elif [[ $run_no -ge 8100 && $run_no -le 8246  ]]; then
 			config=4
 		fi
-	elif [[ $station -eq 2 ]]; then
+	elif [[ $station -eq 3 ]]; then
 		if [[ $run_no -ge 0 && $run_no -le 3  ]]; then
 			config=1
 		elif [[ $run_no -ge 470 && $run_no -le 1448  ]]; then
