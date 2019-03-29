@@ -73,10 +73,10 @@ N_TRIG_H=3
 
 //---READOUT---
 
-FILL_TREE_MODE=1        //fill tree for useful posnu events
+FILL_TREE_MODE=2        //fill tree for useful posnu events
 V_SATURATION=1.5        //readout voltage saturation 1.5V
 V_MIMIC_MODE=0          //0 : global trig is located center of readout windows
-DATA_SAVE_MODE=1         
+DATA_SAVE_MODE=2         
 DATA_LIKE_OUTPUT=1      //save data to eventTree
 //WAVEFORM_LENGTH=1664    //number of samples in a waveform
 

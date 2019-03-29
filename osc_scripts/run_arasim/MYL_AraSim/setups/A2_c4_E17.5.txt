@@ -31,7 +31,7 @@ ALL_ANT_V_ON=0              //apply Hpol and Vpol gains respectively
 
 //---PRIMARY AND SHOWER---
 
-EXPONENT=17
+EXPONENT=17.5
 NNU=10000                   //number of neutrino events
 ONLY_PASSED_EVENTS=0        //0 (default): AraSim throws NNU events whether or not they pass; 1: AraSim throws events until the number of events that pass the trigger is equal to NNU_PASSED
 NU_NUBAR_SELECT_MODE=3      //random
@@ -40,7 +40,7 @@ SELECT_CURRENT=2            //rndom nc or cc
 SECONDARIES=1               //enable secondaries
 TAUDECAY=1                  //account for tau decay in secondaries
 SHOWER_MODE=2               //both EM and hadronic shower in t-domain signal
-POSNU_RADIUS=4000
+POSNU_RADIUS=4750
 RAYSOL_RANGE=13000
 INTERACTION_MODE=1          //Veff cylinder mode
 
@@ -73,10 +73,10 @@ N_TRIG_H=3
 
 //---READOUT---
 
-FILL_TREE_MODE=1        //fill tree for useful posnu events
+FILL_TREE_MODE=2        //fill tree for useful posnu events
 V_SATURATION=1.5        //readout voltage saturation 1.5V
 V_MIMIC_MODE=0          //0 : global trig is located center of readout windows
-DATA_SAVE_MODE=1         
+DATA_SAVE_MODE=2         
 DATA_LIKE_OUTPUT=1      //save data to eventTree
 //WAVEFORM_LENGTH=1664    //number of samples in a waveform
 
