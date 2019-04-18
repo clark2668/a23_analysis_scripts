@@ -8,23 +8,37 @@ year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='0'
+simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-#where should the outputs be stored?
-OutputDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
+energy="18.0"
+echo '[ Energy: ' $energy ']'
+export energy
+
+config="4"
+echo '[ Config: ' $config ']'
+export config
+
+#what is the read file
+if [ $simulation == '1' ]
+then
+	readfile=../sim_lists/A${station}_c${config}_E${energy}.txt
+	OutputDir="/fs/scratch/PAS0654/ara/sim/RunSummary/A${station}/c${config}/E${energy}"
+	ErrFile="/fs/scratch/PAS0654/ara/sim/RunSummary/sim_summaryproblems_A${station}_c${config}.txt"
+elif [ $simulation == '0' ]
+then
+	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
+	OutputDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
+	ErrFile="/fs/scratch/PAS0654/ara/10pct/RunSummary/data_summaryproblems_A${station}_${year}.txt"
+fi
+echo '[ Read file: ' $readfile ' ]'
+
 echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
-#what error file should we write to?
-ErrFile="/fs/scratch/PAS0654/ara/10pct/RunSummary/data_summaryproblems_A${station}_${year}.txt"
 echo '[ Error file directory: ' $ErrFile ' ]'
 export ErrFile
-
-#what is the read file
-readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
-echo '[ Read file: ' $readfile ' ]'
 
 RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
