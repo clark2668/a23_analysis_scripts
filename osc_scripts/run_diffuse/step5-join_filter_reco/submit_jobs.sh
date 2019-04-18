@@ -25,7 +25,7 @@ then
 	OutputDir="/fs/scratch/PAS0654/ara/sim/Joined/A${station}/c${config}/E${energy}"
 	ProcDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/Joined/sim_joinproblems_A${station}_E${energy}.txt"
-	readfile=A${station}_c${config}_E{energy}_FilterList.txt
+	readfile=A${station}_c${config}_E${energy}_FilterList.txt
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 
 elif [ $simulation == '0' ] #is not simulation
@@ -54,7 +54,7 @@ do
 
 	if [ $simulation == '1' ] #is simulation
 	then
-		qsub -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,STATION=$station,YEAR=$year,FILE=$line,PROCDIR=$ProcDir -N 'join_A'$station'_c'$cibfug'_E'$energy'_'$counter run.sh
+		qsub -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,STATION=$station,YEAR=$year,FILE=$line,PROCDIR=$ProcDir -N 'join_A'$station'_c'${config}'_E'$energy'_'$counter run.sh
 	elif [ $simulation == '0' ] #is not simulation
 	then
 		qsub -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,STATION=$station,YEAR=$year,FILE=$line,PROCDIR=$ProcDir -N 'join_A'$station'_'$year'_'$counter run.sh
