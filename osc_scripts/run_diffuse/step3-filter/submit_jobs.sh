@@ -29,7 +29,7 @@ if [ $simulation == '1' ] #is simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_filterproblems_A${station}_E${energy}.txt"
-	readfile=../sim_lists/A${station}_c${config}_E${energy}.txt
+	readfile=../sim_lists/raw_A${station}_c${config}_E${energy}.txt
 	walltime=00:05:00
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 elif [ $simulation == '0' ] #is not simulation
