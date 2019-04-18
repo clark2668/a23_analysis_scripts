@@ -12,40 +12,4 @@ year=$2
 echo "[ Station: " $station " ] "
 echo "[ Year: " $year " ] "
 
-if [ $year -eq 2013 ]
-then
-	if [ $station -eq 2 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A2/2013/*filter* > A2FilterList_1in10_2013.txt
-	elif [ $station -eq 3 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A3/2013/*filter* > A3FilterList_1in10_2013.txt
-	fi
-elif [ $year -eq 2014 ]
-then
-	if [ $station -eq 2 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A2/2014/*filter* > A2FilterList_1in10_2014.txt
-	elif [ $station -eq 3 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A3/2014/*filter* > A3FilterList_1in10_2014.txt
-	fi
-elif [ $year -eq 2015 ]
-then
-	if [ $station -eq 2 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A2/2015/*filter* > A2FilterList_1in10_2015.txt
-	elif [ $station -eq 3 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A3/2015/*filter* > A3FilterList_1in10_2015.txt
-	fi
-elif [ $year -eq 2016 ]
-then
-	if [ $station -eq 2 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A2/2016/*filter* > A2FilterList_1in10_2016.txt
-	elif [ $station -eq 3 ]
-	then
-		find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A3/2016/*filter* > A3FilterList_1in10_2016.txt
-	fi
-fi
+find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}/*filter* > A${station}FilterList_1in10_${year}.txt
