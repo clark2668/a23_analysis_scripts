@@ -34,7 +34,7 @@ then
 	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_recoproblems_A${station}_E${energy}.txt"
 	readfile=../sim_lists/raw_A${station}_c${config}_E${energy}.txt
-	walltime=01:00:00
+	walltime=00:20:00
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 elif [ $simulation == '0' ] #is not simulation
 then
@@ -53,7 +53,7 @@ export OutputDir
 echo '[ Error file directory: ' $ErrFile ' ]'
 export ErrFile
 
-RunDir="/users/PAS0654/osu0673/A23_analysis_new2/araROOT"
+RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
 
 #we have to define where in the list of data files we want to start
