@@ -4,23 +4,27 @@ station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2014"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='0'
+simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-energy='18'
+energy='18.0'
 echo '[ Energy: ' $energy ']'
 export energy
 
+config="4"
+echo '[ Config: ' $config ']'
+export config
+
 if [ $simulation == '1' ] #is simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/E${energy}"
+	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_filterproblems_A${station}_E${energy}.txt"
-	readfile=../step1-make_ped_pairs/A${station}_E${energy}_sim_files.txt
+	readfile=../sim_lists/A${station}_c${config}_E${energy}.txt
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
