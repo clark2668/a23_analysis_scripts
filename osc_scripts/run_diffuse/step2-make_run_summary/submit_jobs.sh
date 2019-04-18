@@ -34,9 +34,11 @@ then
 fi
 echo '[ Read file: ' $readfile ' ]'
 
+#where should the outputs be stored?
 echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
+#what error file should we write to?
 echo '[ Error file directory: ' $ErrFile ' ]'
 export ErrFile
 
