@@ -2,8 +2,6 @@
 #PBS -l nodes=1:ppn=40
 #PBS -l walltime=04:00:00
 #PBS -A PAS0654
-#PBS -e /fs/scratch/PAS0654/ara/10pct/err_out_logs
-#PBS -o /fs/scratch/PAS0654/ara/10pct/err_out_logs
 
 cd $LAUNCHDIR
 
