@@ -1,7 +1,7 @@
 #/bin/bash
 #PBS -l nodes=1:ppn=1
-#PBS -l mem=4GB
-#PBS -l walltime=02:00:00
+#PBS -l mem=4760MB
+#PBS -l walltime=01:20:00
 #PBS -A PCON0003
 #PBS -e /fs/scratch/PAS0654/ara/10pct/err_out_logs
 #PBS -o /fs/scratch/PAS0654/ara/10pct/err_out_logs

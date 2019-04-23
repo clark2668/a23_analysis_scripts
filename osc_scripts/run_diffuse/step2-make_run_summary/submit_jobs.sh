@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -8,7 +8,7 @@ year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
@@ -29,8 +29,10 @@ then
 elif [ $simulation == '0' ]
 then
 	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
+	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer_redo.txt
+	readfile=/fs/scratch/PAS0654/ara/10pct/RunSummary/data_summaryproblems_A3_2013.txt
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/RunSummary/data_summaryproblems_A${station}_${year}.txt"
+	ErrFile="/fs/scratch/PAS0654/ara/10pct/RunSummary/data_summaryproblems_A${station}_${year}_v2.txt"
 fi
 echo '[ Read file: ' $readfile ' ]'
 
