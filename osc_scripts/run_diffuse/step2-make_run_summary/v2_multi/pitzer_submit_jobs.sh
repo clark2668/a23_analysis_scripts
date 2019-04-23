@@ -1,10 +1,10 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2014"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -24,6 +24,7 @@ DropBadChans='1'
 echo '[ DropBadChans?: ' $DropBadChans ' ]'
 export DropBadChans
 
+# account=PCON0003
 account=PAS0654
 
 if [ $simulation == '1' ] #is simulation
@@ -36,9 +37,9 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
-	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
+	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer_redo.txt
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
-	walltime=00:25:00
+	walltime=00:35:00
 	ErrFile="/fs/scratch/PAS0654/ara/10pct/RunSummary/data_summaryproblems_A${station}_${year}.txt"
 fi
 
@@ -229,11 +230,11 @@ do
 
 		if [ $simulation == '0' ] #is no simulation
 		then
-			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,DROPCHANS=$DropBadChans,STATION=$station,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28,F29=$f29,P29=$p29,F30=$f30,P30=$p30,F31=$f31,P31=$p31,F32=$f32,P32=$p32,F33=$f33,P33=$p33,F34=$f34,P34=$p34,F35=$f35,P35=$p35,F36=$f36,P36=$p36,F37=$f37,P37=$p37,F38=$f38,P38=$p38,F39=$f39,P39=$p39,F40=$f40,P40=$f40 -N 'pitzer_multi40_A'$station'_'$year'_'$FileNumber'_datarunsummary' pitzer_run.sh
+			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,DROPCHANS=$DropBadChans,STATION=$station,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28,F29=$f29,P29=$p29,F30=$f30,P30=$p30,F31=$f31,P31=$p31,F32=$f32,P32=$p32,F33=$f33,P33=$p33,F34=$f34,P34=$p34,F35=$f35,P35=$p35,F36=$f36,P36=$p36,F37=$f37,P37=$p37,F38=$f38,P38=$p38,F39=$f39,P39=$p39,F40=$f40,P40=$p40 -N 'pitzer_multi40_A'$station'_'$year'_'$FileNumber'_datarunsummary' pitzer_run.sh
 	
 		elif [ $simulation == '1' ] #is simulation
 		then
-			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,DROPCHANS=$DropBadChans,STATION=$station,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28,F29=$f29,P29=$p29,F30=$f30,P30=$p30,F31=$f31,P31=$p31,F32=$f32,P32=$p32,F33=$f33,P33=$p33,F34=$f34,P34=$p34,F35=$f35,P35=$p35,F36=$f36,P36=$p36,F37=$f37,P37=$p37,F38=$f38,P38=$p38,F39=$f39,P39=$p39,F40=$f40,P40=$f40 -N 'pitzer_multi40_A'$station'_c'$config'_E'$energy'_'$FileNumber'_simrunsummary' pitzer_run.sh
+			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,DROPCHANS=$DropBadChans,STATION=$station,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28,F29=$f29,P29=$p29,F30=$f30,P30=$p30,F31=$f31,P31=$p31,F32=$f32,P32=$p32,F33=$f33,P33=$p33,F34=$f34,P34=$p34,F35=$f35,P35=$p35,F36=$f36,P36=$p36,F37=$f37,P37=$p37,F38=$f38,P38=$p38,F39=$f39,P39=$p39,F40=$f40,P40=$p40 -N 'pitzer_multi40_A'$station'_c'$config'_E'$energy'_'$FileNumber'_simrunsummary' pitzer_run.sh
 		fi
 		echo "-----------------------------------"
 	fi
