@@ -4,7 +4,7 @@ station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2015"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -62,7 +62,7 @@ export LaunchDir
 
 #we have to define where in the list of data files we want to start
 FileNumberStart=0
-FileNumberEnd=40
+FileNumberEnd=5000
 
 # readfile=../A${station}_${year}_MergedFiles_pitzer.txt
 
