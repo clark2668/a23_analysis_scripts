@@ -20,11 +20,15 @@ config="4"
 echo '[ Config: ' $config ']'
 export config
 
+DropBadChans='1'
+echo '[ DropBadChans?: ' $DropBadChans ' ]'
+export DropBadChans
+
 if [ $simulation == '1' ] #is simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/sim/CWID/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/CWID/sim_CWIDproblems_A${station}_c${config}_E${energy}.txt"
-	readfile=../sim_lists/short_raw_A${station}_c${config}_E${energy}.txt
+	readfile=../sim_lists/raw_A${station}_c${config}_E${energy}.txt
 	walltime=00:20:00
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 elif [ $simulation == '0' ] #is not simulation
@@ -67,10 +71,10 @@ do
 
 	if [ $simulation == '1' ] #is simulation
 	then
-		qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_c'$config'_E'$energy'_simCWID_'$counter run.sh
+		qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,DROPCHANS=$DropBadChans,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_c'$config'_E'$energy'_simCWID_'$counter run.sh
 	elif [ $simulation == '0' ] #is not simulation
 	then
-		qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_dataCWID_'$counter run.sh
+		qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,SUMMARYDIR=$SummaryDir,DROPCHANS=$DropBadChans,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_dataCWID_'$counter run.sh
 	fi
 
 	counter=$((counter+1))
