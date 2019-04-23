@@ -45,7 +45,7 @@ then
 	ErrFile="/fs/scratch/PAS0654/ara/10pct/CWID/data_CWIDproblems_A${station}_${year}.txt"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
-	walltime=05:00:00
+	walltime=06:00:00
 fi
 
 #where should the outputs be stored?
