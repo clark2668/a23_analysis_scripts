@@ -1,14 +1,14 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2013"
+year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
