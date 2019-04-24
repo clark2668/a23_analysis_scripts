@@ -29,7 +29,6 @@ do
 	c=${b%_joined_bins_6_19} #down to XXXX
 	run_no=$c
 	# run_no=$(echo $c | sed 's/^0*//') #remove leading zeros	
-	echo $run_no
 
 	if [[ $station -eq 2 ]]; then
 		if [[ $run_no -ge 0 && $run_no -le 4  ]]; then
