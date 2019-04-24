@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -232,6 +232,14 @@ do
 		sa40=($line40)
 		f40=${sa40[0]}
 		p40=${sa40[0]}
+
+		if (( $FileNumber == 640 && $station == '3' && $year == '2013' ))
+		then
+			echo 'Bumped walltime'
+			walltime=20:00:00
+		else
+			walltime=06:00:00
+		fi
 
 		if [ $simulation == '0' ] #is no simulation
 		then
