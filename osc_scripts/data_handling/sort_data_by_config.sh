@@ -35,7 +35,7 @@ do
 		if [[ $run_no -ge 0 && $run_no -le 4  ]]; then
 			config=1
 		elif [[ $run_no -ge 11 && $run_no -le 60  ]]; then
-			config=2
+			config=4
 		elif [[ $run_no -ge 120 && $run_no -le 2274  ]]; then
 			config=2
 		elif [[ $run_no -ge 2275 && $run_no -le 3463  ]]; then
