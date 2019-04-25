@@ -64,6 +64,8 @@ do
 			config=4
 		elif [[ $run_no -ge 7658 && $run_no -le 7808  ]]; then
 			config=3
+		else
+			echo "I don't know what to do with run number "$run_no
 		fi
 	fi
 
