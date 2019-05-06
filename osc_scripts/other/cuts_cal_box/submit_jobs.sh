@@ -1,7 +1,7 @@
 #!/bin/bash
 
 station="2"
-config="1"
+config="2"
 
 #where should the outputs be stored?
 OutputDir="/fs/scratch/PAS0654/ara/10pct/other_studies/RecoSave/A${station}/c${config}"
