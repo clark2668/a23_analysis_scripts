@@ -20,6 +20,7 @@ elif [[ $station -eq 3 ]]; then
 	mkdir -p A$station/by_config/c2
 	mkdir -p A$station/by_config/c3
 	mkdir -p A$station/by_config/c4
+	mkdir -p A$station/by_config/c5
 fi
 
 files="A$station/$year/*.root"
@@ -54,8 +55,10 @@ do
 			config=1
 		elif [[ $run_no -ge 470 && $run_no -le 1448  ]]; then
 			config=2
-		elif [[ $run_no -ge 1449 && $run_no -le 3061  ]]; then
+		elif [[ $run_no -ge 1449 && $run_no -le 2971  ]]; then
 			config=1
+		elif [[ $run_no -ge 2972 && $run_no -le 3061  ]]; then
+			config=5
 		elif [[ $run_no -ge 3063 && $run_no -le 6004  ]]; then
 			config=3
 		elif [[ $run_no -ge 6005 && $run_no -le 7653  ]]; then
