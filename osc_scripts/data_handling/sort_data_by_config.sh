@@ -57,9 +57,9 @@ do
 			config=1
 		elif [[ $run_no -ge 470 && $run_no -le 1448  ]]; then
 			config=2
-		elif [[ $run_no -ge 1449 && $run_no -le 2873  ]]; then
+		elif [[ $run_no -ge 1449 && $run_no -le 1901  ]]; then
 			config=1
-		elif [[ $run_no -ge 2874 && $run_no -le 3061  ]]; then
+		elif [[ $run_no -ge 1902 && $run_no -le 3061  ]]; then
 			config=5
 		elif [[ $run_no -ge 3063 && $run_no -le 6004  ]]; then
 			config=3
