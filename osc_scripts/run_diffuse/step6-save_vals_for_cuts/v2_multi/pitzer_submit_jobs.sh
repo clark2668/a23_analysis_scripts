@@ -4,11 +4,11 @@ station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-simulation='0'
+simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-energy="18.0"
+energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
@@ -21,10 +21,20 @@ echo '[ DropBadChans?: ' $DropBadChans ' ]'
 export DropBadChans
 
 #some cut values
-V_SNR_BIN=3
-H_SNR_BIN=5
-V_WFRMS_CUT=-1.5
-H_WFRMS_CUT=-1.5
+V_SNR_BIN=0
+H_SNR_BIN=0
+#V_SNR_BIN=3
+#H_SNR_BIN=5
+#V_WFRMS_CUT=-0.5
+#H_WFRMS_CUT=-0.5
+#V_WFRMS_CUT=-1.05
+#H_WFRMS_CUT=-1.25
+V_WFRMS_CUT=-1.30
+H_WFRMS_CUT=-1.40
+#V_WFRMS_CUT=-1.5
+#H_WFRMS_CUT=-1.5
+#V_WFRMS_CUT=1.
+#H_WFRMS_CUT=1.
 export V_SNR_BIN
 export H_SNR_BIN
 export V_WFRMS_CUT
@@ -38,14 +48,17 @@ export H_WFRMS_CUT
 
 if [ $simulation == '1' ] #is simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/sim/ValsForCuts/A${station}/c${config}/E${energy}"
-	readfile=../sim_by_config/A${station}_c${config}_E${energy}_MergedFiles_pitzer.txt
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/sim/ValsForCuts/A${station}/c${config}/E${energy}"
+	# OutputDir="/fs/scratch/PAS0654/ara/sim/ValsForCuts/A${station}/c${config}/E${energy}"
+	readfile=../sim_by_config/A${station}_c${config}_E${energy}_MergedFiles.txt
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 	walltime=00:20:00
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/10pct/ValsForCuts/A${station}/c${config}"
+	#OutputDir="/fs/scratch/PAS0654/ara/10pct/ValsForCuts/A${station}/c${config}"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/ValsForCuts/A${station}/c${config}"
 	readfile=../data_by_config/A${station}_c${config}_MergedFiles_pitzer.txt
+	# readfile=../data_by_config/A${station}_c${config}_MergedFiles_pitzer_problems.txt
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
 	walltime=04:00:00
 fi
