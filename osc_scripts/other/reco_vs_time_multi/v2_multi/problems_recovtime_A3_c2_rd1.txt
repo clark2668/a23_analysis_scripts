@@ -1,0 +1,1 @@
+/fs/scratch/PAS0654/ara/10pct/ValsForCuts/A3/c2/cutvals_drop_snrbins_3_5_wfrmsvals_1.5_1.5_run_490.root

@@ -1,0 +1,12 @@
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1481.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1531.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1796.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1797.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1802.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1809.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1799.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1810.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1807.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1806.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1692.root
+/fs/scratch/PAS0654/ara/10pct/RawData/A3/by_config/c1/event1795.root
