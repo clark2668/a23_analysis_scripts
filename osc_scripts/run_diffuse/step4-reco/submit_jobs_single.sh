@@ -1,27 +1,23 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
 year="2013"
-echo '[ Station: ' $year ' ]'
+echo '[ Year: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-#we have to define where in the radii selection we want to be
-#usually choose either 19-20 which is 300m
-#RadiusBinBegin=19
-#RadiusBinEnd=20
-#or choose 6-7 which is 41m
-RadiusBinBegin=6
-RadiusBinEnd=7
-echo '[ Radius start and stop: ' $RadiusBinBegin ' , ' $RadiusBinEnd ' ]'
+# RadiusBin=6
+RadiusBin=19
+echo '[ Radius Bin: ' $RadiusBin ' ]'
+export RadiusBin
 
-energy='18.0'
+energy='20.0'
 echo '[ Energy: ' $energy ']'
 export energy
 
@@ -32,33 +28,38 @@ export config
 if [ $simulation == '1' ] #is simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
-	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_recoproblems_A${station}_E${energy}.txt"
+	FilterDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
+	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_recoproblems_A${station}_E${energy}_R${RadiusBin}.txt"
 	readfile=../sim_lists/raw_A${station}_c${config}_E${energy}.txt
 	walltime=00:20:00
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_recoproblems_A${station}_${year}.txt"
-	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
+	FilterDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
+	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_recoproblems_A${station}_${year}_R${RadiusBin}.txt"
+	readfile=../make_run_lists/A${station}List_1in10_${year}_bySize.txt
+	readfile=../make_run_lists/A${station}List_1in10_${year}_bySize_redo.txt
 	walltime=48:00:00
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
 fi
 
-#where should the outputs be stored?
+echo '[ Fiter file directory: ' $FilterDir ' ]'
+export FilterDir
+
 echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
-#what error file should we write to?
 echo '[ Error file directory: ' $ErrFile ' ]'
 export ErrFile
 
 RunDir="/users/PAS0654/osu0673/A23_analysis_new2/AraRoot"
 export RunDir
 
-#we have to define where in the list of data files we want to start
 FileNumberStart=0
 FileNumberEnd=5000
+
+tac $readfile > junkme.txt
 
 FileNumber=0
 while read line1
@@ -69,22 +70,18 @@ do
 	
 		sa1=($line1)
 		f1=${sa1[0]}
-		p1=${sa1[1]}
 
-		for (( RadiusBin = $RadiusBinBegin; RadiusBin < $RadiusBinEnd; RadiusBin++ ))
-		do
-			export RadiusBin
+		echo $line1
 
-			echo $line1
-
-			if [ $simulation == '1' ] #is simulation
-			then
-				qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_c'$config'_E'$energy'_simreco_R'$RadiusBin'_'$FileNumber run_single.sh
-			elif [ $simulation == '0' ] #is not simulation
-			then
-				qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1,PED=$p1 -N 'A'$station'_'$year'_datareco_R'$RadiusBin'_'$FileNumber run_single.sh
-			fi
-		done
+		if [ $simulation == '1' ] #is simulation
+		then
+			qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1 -N 'A'$station'_c'$config'_E'$energy'_simreco_R'$RadiusBin'_'$FileNumber run_single.sh
+		elif [ $simulation == '0' ] #is not simulation
+		then
+			qsub -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,SIMULATION=$simulation,FILE=$f1 -N 'A'$station'_'$year'_datareco_R'$RadiusBin'_'$FileNumber run_single.sh
+		fi
 	fi
 	FileNumber=$((FileNumber+1))
-done < $readfile
+# done < $readfile
+done < junkme.txt
+rm junkme.txt
