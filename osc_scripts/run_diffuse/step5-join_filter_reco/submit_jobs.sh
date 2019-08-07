@@ -1,10 +1,10 @@
 #!/bin/bash
 
-station="3"
+station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2016"
+year="2015"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -54,7 +54,7 @@ do
 
 	if [ $simulation == '1' ] #is simulation
 	then
-		qsub -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,STATION=$station,YEAR=$year,FILE=$line,PROCDIR=$ProcDir -N 'join_A'$station'_c'${config}'_E'$energy'_'$counter run.sh
+		qsub -e $err_out_location -o $err_out_locaion -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,STATION=$station,YEAR=$year,FILE=$line,PROCDIR=$ProcDir -N 'join_A'$station'_c'${config}'_E'$energy'_'$counter run.sh
 	elif [ $simulation == '0' ] #is not simulation
 	then
 		qsub -e $err_out_location -o $err_out_location -v ERRFILE=$ErrFile,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,STATION=$station,YEAR=$year,FILE=$line,PROCDIR=$ProcDir -N 'join_A'$station'_'$year'_'$counter run.sh

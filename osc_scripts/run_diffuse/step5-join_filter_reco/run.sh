@@ -12,7 +12,7 @@ cd $RUNDIR
 
 if [ $? -ne 0 ] #error handle
 then
-	echo $FILE >> /fs/scratch/PAS0654/ara/10pct/Joined/problems_A${STATION}_${YEAR}_join_errors.txt
+	echo $FILE >> $ERRFILE
 else
 	pbsdcp $TMPDIR/'*.root' $OUTPUTDIR
 fi
