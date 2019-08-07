@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -8,7 +8,7 @@ year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
@@ -34,9 +34,11 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/CWID/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/CWID/data_CWIDproblems_A${station}_${year}.txt"
+	ErrFile="/fs/scratch/PAS0654/ara/10pct/CWID/data_CWIDproblems_A${station}_${year}_v2.txt"
 	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
-	walltime=16:00:00
+	readfile=/fs/scratch/PAS0654/ara/10pct/CWID/data_CWIDproblems_A${station}_${year}.txt
+	readfile=A${station}_${year}_redo.txt
+	walltime=24:00:00
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
 fi
 
