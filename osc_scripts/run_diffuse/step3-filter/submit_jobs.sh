@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="3"
+station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -12,7 +12,7 @@ simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-energy='18.0'
+energy='20.0'
 echo '[ Energy: ' $energy ']'
 export energy
 
@@ -35,7 +35,7 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
+	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_filterproblems_A${station}_${year}_v2.txt"
 	readfile=../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs.txt
 	walltime=02:00:00
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs

@@ -4,15 +4,15 @@ station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2013"
+year="2014"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='0'
+simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-energy="18.0"
+energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
@@ -36,16 +36,17 @@ if [ $simulation == '1' ] #is simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_filterproblems_A${station}_c${config}.txt"
-	readfile=../../sim_by_config/A${station}_c${config}_E${energy}_MergedFiles_pitzer.txt
+	# readfile=../../sim_by_config/A${station}_c${config}_E${energy}_MergedFiles_pitzer.txt
+	readfile=../../sim_lists/raw_A${station}_c${config}_E${energy}.txt
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
-	walltime=00:20:00
+	walltime=00:10:00
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
 	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
-	walltime=00:40:00
+	walltime=02:50:00
 fi
 
 #where should the outputs be stored?

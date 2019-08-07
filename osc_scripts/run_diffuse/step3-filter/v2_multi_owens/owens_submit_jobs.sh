@@ -12,11 +12,11 @@ simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-energy="17.0"
+energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
-config="1"
+config="2"
 echo '[ Config: ' $config ']'
 export config
 
@@ -36,7 +36,7 @@ if [ $simulation == '1' ] #is simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_filterproblems_A${station}_E${energy}_c${config}.txt"
-	readfile=../../sim_lists/raw_A${station}_c${config}_E${energy}_owens.txt
+	readfile=../../sim_lists/raw_A${station}_c${config}_E${energy}.txt
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 	walltime=00:10:00
 elif [ $simulation == '0' ] #is not simulation
