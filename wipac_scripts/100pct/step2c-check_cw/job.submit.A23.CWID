@@ -1,6 +1,6 @@
-log = /scratch/brianclark/A23Diffuse/log/A23Diffuse.Filter.$(Cluster).$(Process).log
-output = /scratch/brianclark/A23Diffuse/output/A23Diffuse.Filter.$(Cluster).$(Process).out
-error = /scratch/brianclark/A23Diffuse/error/A23Diffuse.Filter.$(Cluster).$(Process).err
+log = /scratch/brianclark/A23Diffuse/log/A23Diffuse.CWID.$(Cluster).$(Process).log
+output = /scratch/brianclark/A23Diffuse/output/A23Diffuse.CWID.$(Cluster).$(Process).out
+error = /scratch/brianclark/A23Diffuse/error/A23Diffuse.CWID.$(Cluster).$(Process).err
 Universe = vanilla
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
@@ -8,7 +8,7 @@ initialdir=/home/brianclark/A23_analysis_new2/AraRoot
 getenv = true
 Requirements = (OpSysMajorVer =?= 7)
 request_memory = 4GB
-RequestDisk = 15000000
+RequestDisk = 40000000
 
 Executable = /home/brianclark/A23_analysis_new2/a23_analysis_scripts/wipac_scripts/100pct/step2c-check_cw/condor_run_script_CWID.sh
 
