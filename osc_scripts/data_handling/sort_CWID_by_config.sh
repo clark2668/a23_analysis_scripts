@@ -73,7 +73,9 @@ do
 	#if we want to make a symlink for the first time
 
 	base_name=`basename $f`
-	new_save='/fs/scratch/PAS0654/ara/10pct/CWID/A'$station'/by_config/c'$config'/'$base_name
-	old_full_name=/fs/scratch/PAS0654/ara/10pct/CWID/$f
+	# new_save='/fs/scratch/PAS0654/ara/10pct/CWID/A'$station'/by_config/c'$config'/'$base_name
+	new_save='/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/CWID/A'$station'/by_config/c'$config'/'$base_name
+	# old_full_name=/fs/scratch/PAS0654/ara/10pct/CWID/$f
+	old_full_name=/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/CWID/$f
 	ln -s $old_full_name $new_save
 done
