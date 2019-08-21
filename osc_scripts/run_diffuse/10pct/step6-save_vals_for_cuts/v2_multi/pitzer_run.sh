@@ -1,7 +1,5 @@
 #/bin/bash
 #PBS -l nodes=1:ppn=40
-#PBS -A PAS0654
-
 
 # ./bin/v2_SaveVals100 
 # 1 <isSim?> 
@@ -11,11 +9,12 @@
 # 5 <drop_bad_chan> 
 # 6 <output_location> 
 # 7 <data_directory> 
-# 8 <V SNR bin> 
-# 9 <H SNR bin> 
-# 10 <V WFRMS val> 
-# 11 <H WFRMS val> 
-# 12 <joined filename 1> <joined filename 2 > ... <joined filename x>
+# 8 <cw_directory>
+# 9 <V SNR bin> 
+# 10 <H SNR bin> 
+# 11 <V WFRMS val> 
+# 12 <H WFRMS val> 
+# 13 <joined filename 1> <joined filename 2 > ... <joined filename x>
 
 cd $LAUNCHDIR
 

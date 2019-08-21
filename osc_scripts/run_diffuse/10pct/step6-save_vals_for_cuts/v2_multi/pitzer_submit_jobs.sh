@@ -12,7 +12,7 @@ energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
-config="1"
+config="5"
 echo '[ Config: ' $config ']'
 export config
 
@@ -44,13 +44,13 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/ValsForCuts/A${station}/c${config}"
-	readfile=../data_by_config/A${station}_c${config}_MergedFiles_pitzer.txt
+	readfile=../data_by_config/A${station}_c${config}_RecoFiles_pitzer.txt
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
 	DataDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/"
 	CWDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/"
 	walltime=04:00:00
-	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/ProcessedFile/data_savevalsproblems10_A${station}_${config}.txt"
-fi        
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/ValsForCuts/data_savevalsproblems10_A${station}_${config}.txt"
+fi
 
 #where should the outputs be stored?
 echo '[ Output directory: ' $OutputDir ' ]'
@@ -66,7 +66,7 @@ export LaunchDir
 
 #we have to define where in the list of data files we want to start
 FileNumberStart=0
-FileNumberEnd=40
+FileNumberEnd=5000
 
 # readfile=../A${station}_${year}_MergedFiles_pitzer.txt
 
