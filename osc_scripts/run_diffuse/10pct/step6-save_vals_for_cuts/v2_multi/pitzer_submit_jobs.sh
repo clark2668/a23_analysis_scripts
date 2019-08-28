@@ -30,8 +30,8 @@ export H_SNR_BIN
 export V_WFRMS_CUT
 export H_WFRMS_CUT
 
-# account=PCON0003                                                                                                                                                                   
-account=PAS0654
+account=PCON0003                                                                                                                                                                   
+#account=PAS0654
 
 if [ $simulation == '1' ] #is simulation
 then
@@ -48,7 +48,7 @@ then
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
 	DataDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/"
 	CWDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/"
-	walltime=04:00:00
+	walltime=02:30:00
 	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/ValsForCuts/data_savevalsproblems10_A${station}_${config}.txt"
 fi
 
