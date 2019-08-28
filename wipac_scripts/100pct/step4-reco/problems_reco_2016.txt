@@ -1,0 +1,3 @@
+/data/wipac/ARA/2016/blinded/L1/ARA02/0927/run007992/event007992.root /data/wipac/ARA/2016/calibration/pedestals/ARA02/pedestalValues.run007989.dat
+/data/wipac/ARA/2016/blinded/L1/ARA02/1014/run008085/event008085.root /data/wipac/ARA/2016/calibration/pedestals/ARA02/pedestalValues.run008083.dat
+/data/wipac/ARA/2016/blinded/L1/ARA02/1015/run008086/event008086.root /data/wipac/ARA/2016/calibration/pedestals/ARA02/pedestalValues.run008083.dat

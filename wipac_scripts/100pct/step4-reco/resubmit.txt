@@ -1,0 +1,416 @@
+[ Station:  2  ]
+[ Station:  2013  ]
+[ Simulation:  0  ]
+[ Processed file output directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2013  ]
+[ Run summary directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2013  ]
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2264/event2264.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002261/pedestalValues.run002261.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123748.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2279/event2279.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002266/pedestalValues.run002266.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123749.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2282/event2282.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002266/pedestalValues.run002266.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123750.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2290/event2290.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002286/pedestalValues.run002286.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123751.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2343/event2343.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002310/pedestalValues.run002310.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123752.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2361/event2361.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002310/pedestalValues.run002310.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123753.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2371/event2371.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002370/pedestalValues.run002370.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123754.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2436/event2436.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002430/pedestalValues.run002430.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123755.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2452/event2452.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002430/pedestalValues.run002430.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123756.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2459/event2459.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002455/pedestalValues.run002455.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123757.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2531/event2531.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002530/pedestalValues.run002530.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123758.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2583/event2583.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002540/pedestalValues.run002540.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123759.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2622/event2622.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002600/pedestalValues.run002600.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123760.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2631/event2631.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002600/pedestalValues.run002600.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123761.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2636/event2636.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002600/pedestalValues.run002600.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123762.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2648/event2648.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002645/pedestalValues.run002645.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123763.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2651/event2651.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002650/pedestalValues.run002650.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123764.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2652/event2652.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002650/pedestalValues.run002650.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123765.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2659/event2659.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002650/pedestalValues.run002650.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123766.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2666/event2666.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002665/pedestalValues.run002665.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123767.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2676/event2676.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002670/pedestalValues.run002670.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123768.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2681/event2681.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002680/pedestalValues.run002680.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123769.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2683/event2683.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002680/pedestalValues.run002680.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123770.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2688/event2688.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002685/pedestalValues.run002685.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123771.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2697/event2697.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002685/pedestalValues.run002685.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123772.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2699/event2699.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002685/pedestalValues.run002685.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123773.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2703/event2703.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002685/pedestalValues.run002685.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123774.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2706/event2706.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002685/pedestalValues.run002685.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123775.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2709/event2709.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002685/pedestalValues.run002685.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123776.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2739/event2739.root /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run_002715/pedestalValues.run002715.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123777.
+[ Station:  2  ]
+[ Station:  2014  ]
+[ Simulation:  0  ]
+[ Processed file output directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2014  ]
+[ Run summary directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2014  ]
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2811/event002811.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123806.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2812/event002812.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123807.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2815/event002815.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123808.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2816/event002816.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123809.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2818/event002818.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123810.
+/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2819/event002819.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123811.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0127/run002960/event002960.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002951.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123812.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0131/run002978/event002978.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002976.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123813.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0203/run002992/event002992.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002981.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123814.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0211/run003035/event003035.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003031.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123815.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0213/run003043/event003043.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003042.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123816.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0217/run003065/event003065.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003062.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123817.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0224/run003100/event003100.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003092.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123818.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0225/run003103/event003103.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003102.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123819.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0226/run003106/event003106.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003102.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123820.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0226/run003108/event003108.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003107.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123821.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0227/run003111/event003111.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003107.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123822.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0227/run003115/event003115.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003112.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123823.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0228/run003118/event003118.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003117.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123824.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0301/run003124/event003124.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003122.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123825.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0301/run003125/event003125.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003122.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123826.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0303/run003133/event003133.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003132.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123827.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0306/run003199/event003199.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003195.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123828.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0308/run003208/event003208.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003205.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123829.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0311/run003224/event003224.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003220.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123830.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0324/run003313/event003313.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003285.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123831.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0324/run003317/event003317.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003314.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123832.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0325/run003320/event003320.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003319.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123833.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0413/run003414/event003414.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003411.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123834.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0413/run003415/event003415.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003411.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123835.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0421/run003455/event003455.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003451.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123836.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0421/run003457/event003457.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003456.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123837.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0421/run003458/event003458.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003456.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123838.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0422/run003459/event003459.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003456.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123839.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0422/run003460/event003460.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003456.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123840.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0422/run003462/event003462.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003461.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123841.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0505/run003527/event003527.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003526.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123842.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0510/run003553/event003553.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003551.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123843.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0510/run003555/event003555.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003551.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123844.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0511/run003557/event003557.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003556.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123845.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0513/run003572/event003572.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003561.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123846.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0519/run003619/event003619.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003616.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123847.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0520/run003624/event003624.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003621.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123848.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0520/run003627/event003627.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003626.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123849.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0521/run003629/event003629.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003626.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123850.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0521/run003632/event003632.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003631.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123851.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0531/run003682/event003682.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003681.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123852.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0601/run003688/event003688.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003686.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123853.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0607/run003722/event003722.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003719.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123854.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0609/run003735/event003735.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003734.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123855.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0610/run003736/event003736.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003734.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123856.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0610/run003738/event003738.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003734.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123857.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0611/run003742/event003742.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003739.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123858.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0620/run003786/event003786.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003782.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123859.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0620/run003790/event003790.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003787.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123860.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0621/run003791/event003791.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003787.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123861.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0716/run003915/event003915.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003913.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123862.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0731/run003996/event003996.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run003988.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123863.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0804/run004017/event004017.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004015.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123864.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0805/run004025/event004025.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004015.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123865.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0806/run004029/event004029.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004015.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123866.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0806/run004032/event004032.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004015.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123867.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0809/run004045/event004045.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004044.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123868.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0809/run004047/event004047.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004044.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123869.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0810/run004048/event004048.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004044.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123870.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0810/run004051/event004051.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004049.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123871.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0810/run004052/event004052.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004049.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123872.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0811/run004053/event004053.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004049.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123873.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0811/run004055/event004055.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004054.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123874.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0811/run004056/event004056.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004054.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123875.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0811/run004057/event004057.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004054.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123876.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0812/run004058/event004058.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004054.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123877.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0812/run004060/event004060.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004059.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123878.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0813/run004063/event004063.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004059.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123879.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0813/run004065/event004065.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004064.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123880.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0813/run004066/event004066.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004064.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123881.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0813/run004067/event004067.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004064.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123882.
+/data/wipac/ARA/2014/blinded/L1/ARA02/0816/run004081/event004081.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run004080.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123883.
+[ Station:  2  ]
+[ Station:  2015  ]
+[ Simulation:  0  ]
+[ Processed file output directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2015  ]
+[ Run summary directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2015  ]
+/data/wipac/ARA/2015/blinded/L1/ARA02/0106/run004793/event004793.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run004791.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123884.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0123/run004949/event004949.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run004946.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123885.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0128/run004972/event004972.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run004971.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123886.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0131/run004989/event004989.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run004986.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123887.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0204/run005008/event005008.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005006.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123888.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0207/run005019/event005019.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005016.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123889.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0409/run005395/event005395.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005393.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123890.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0416/run005431/event005431.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005428.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123891.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0419/run005442/event005442.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005438.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123892.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0605/run005680/event005680.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005678.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123893.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0613/run005720/event005720.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005718.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123894.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0629/run005801/event005801.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005798.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123895.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0707/run005837/event005837.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005833.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123896.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0712/run005865/event005865.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005863.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123897.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0716/run005884/event005884.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005883.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123898.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0719/run005899/event005899.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005898.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123899.
+/data/wipac/ARA/2015/blinded/L1/ARA02/0722/run005914/event005914.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run005913.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123900.
+/data/wipac/ARA/2015/blinded/L1/ARA02/1019/run006358/event006358.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run006354.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123901.
+/data/wipac/ARA/2015/blinded/L1/ARA02/1024/run006383/event006383.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run006379.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123902.
+/data/wipac/ARA/2015/blinded/L1/ARA02/1028/run006405/event006405.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run006404.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123903.
+/data/wipac/ARA/2015/blinded/L1/ARA02/1106/run006450/event006450.root /data/wipac/ARA/2015/calibration/pedestals/ARA02/pedestalValues.run006449.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123904.
+[ Station:  2  ]
+[ Station:  2016  ]
+[ Simulation:  0  ]
+[ Processed file output directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2016  ]
+[ Run summary directory:  /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A2/2016  ]
+/data/wipac/ARA/2016/blinded/L1/ARA02/0927/run007992/event007992.root /data/wipac/ARA/2016/calibration/pedestals/ARA02/pedestalValues.run007989.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123905.
+/data/wipac/ARA/2016/blinded/L1/ARA02/1014/run008085/event008085.root /data/wipac/ARA/2016/calibration/pedestals/ARA02/pedestalValues.run008083.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123906.
+/data/wipac/ARA/2016/blinded/L1/ARA02/1015/run008086/event008086.root /data/wipac/ARA/2016/calibration/pedestals/ARA02/pedestalValues.run008083.dat
+Submitting job(s).
+1 job(s) submitted to cluster 32123907.

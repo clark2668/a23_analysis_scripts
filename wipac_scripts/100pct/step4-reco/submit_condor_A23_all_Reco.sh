@@ -23,8 +23,8 @@ FILTERFILEDIR="/data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A${STATION}
 echo '[ Run summary directory: ' $FILTERFILEDIR ' ]'
 export FILTERFILEDIR
 
-readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
-#readfile=old_recoproblems_A${STATION}_${CONFIG}_rd1.txt
+#readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
+readfile=problems_reco_${CONFIG}.txt
 
 FileNumber=0
 
