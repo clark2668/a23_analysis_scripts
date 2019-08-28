@@ -1,0 +1,3 @@
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2016/0927/run007992/event007992.root /fs/project/PAS0654/ARA_DATA/A23/peds/A2/2016/pedestalValues.run007989.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2016/1014/run008085/event008085.root /fs/project/PAS0654/ARA_DATA/A23/peds/A2/2016/pedestalValues.run008083.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2016/1015/run008086/event008086.root /fs/project/PAS0654/ARA_DATA/A23/peds/A2/2016/pedestalValues.run008083.dat
