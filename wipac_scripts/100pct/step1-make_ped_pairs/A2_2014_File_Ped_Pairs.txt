@@ -2,7 +2,6 @@
 /data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2812/event002812.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2813/event002813.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2815/event002815.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
-/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2816/event002816.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2818/event002818.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run2819/event002819.root /data/wipac/ARA/2014/calibration/pedestals/ARA02/pedestalValues.run002832.dat
 /data/wipac/ARA/2014/blinded/L1/ARA02/0101/run002820/event002820.root 
