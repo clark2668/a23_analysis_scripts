@@ -8,7 +8,7 @@ year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
@@ -25,7 +25,7 @@ echo '[ DropBadChans?: ' $DropBadChans ' ]'
 export DropBadChans
 
 #where are the run summaries?
-SummaryDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
+SummaryDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/RunSummary/A${station}/${year}"
 echo '[ Run summary directory: ' $SummaryDir ' ]'
 export SummaryDir
 
@@ -41,10 +41,10 @@ then
 	walltime=00:10:00
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo//ProcessedFile/A${station}/${year}"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens.txt
-	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
 	walltime=01:40:00
 fi
 
@@ -127,59 +127,59 @@ do
 
 		sa14=($line14)
 		f14=${sa14[0]}
-		p14=${sa14[0]}
+		p14=${sa14[1]}
 
 		sa15=($line15)
 		f15=${sa15[0]}
-		p15=${sa15[0]}
+		p15=${sa15[1]}
 
 		sa16=($line16)
 		f16=${sa16[0]}
-		p16=${sa16[0]}
+		p16=${sa16[1]}
 
 		sa17=($line17)
 		f17=${sa17[0]}
-		p17=${sa17[0]}
+		p17=${sa17[1]}
 
 		sa18=($line18)
 		f18=${sa18[0]}
-		p18=${sa18[0]}
+		p18=${sa18[1]}
 
 		sa19=($line19)
 		f19=${sa19[0]}
-		p19=${sa19[0]}
+		p19=${sa19[1]}
 
 		sa20=($line20)
 		f20=${sa20[0]}
-		p20=${sa20[0]}
+		p20=${sa20[1]}
 
 		sa21=($line21)
 		f21=${sa21[0]}
-		p21=${sa21[0]}
+		p21=${sa21[1]}
 
 		sa22=($line22)
 		f22=${sa22[0]}
-		p22=${sa22[0]}
+		p22=${sa22[1]}
 
 		sa23=($line23)
 		f23=${sa23[0]}
-		p23=${sa23[0]}
+		p23=${sa23[1]}
 
 		sa24=($line24)
 		f24=${sa24[0]}
-		p24=${sa24[0]}
+		p24=${sa24[1]}
 
 		sa25=($line25)
 		f25=${sa25[0]}
-		p25=${sa25[0]}
+		p25=${sa25[1]}
 
 		sa26=($line26)
 		f26=${sa26[0]}
-		p26=${sa26[0]}
+		p26=${sa26[1]}
 
 		sa27=($line27)
 		f27=${sa27[0]}
-		p27=${sa27[0]}
+		p27=${sa27[1]}
 
 		sa28=($line28)
 		f28=${sa28[0]}

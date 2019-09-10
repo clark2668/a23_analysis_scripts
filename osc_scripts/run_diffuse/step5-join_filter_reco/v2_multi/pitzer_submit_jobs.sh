@@ -4,7 +4,7 @@ station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2014"
+year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -33,11 +33,11 @@ then
 
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/10pct/Joined/A${station}/${year}"
-	ProcDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/Joined/data_joinproblems_A${station}_${year}.txt"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/Joined/A${station}/${year}"
+	ProcDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/Joined/data_joinproblems_A${station}_${year}.txt"
 	readfile=../A${station}FilterList_1in10_${year}_pitzer.txt
-	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
 fi
 
 #where should the outputs be stored?

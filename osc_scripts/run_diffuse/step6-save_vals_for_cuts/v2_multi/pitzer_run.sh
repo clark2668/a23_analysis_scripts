@@ -1,6 +1,5 @@
 #/bin/bash
 #PBS -l nodes=1:ppn=40
-#PBS -l walltime=04:00:00
 #PBS -A PAS0654
 
 cd $LAUNCHDIR
@@ -139,7 +138,7 @@ do
 	if [ ${!val} -ne 0 ] #error handle
 	then
 		declare trouble_file=F_$i
-		echo "${!trouble_file}" >> /fs/scratch/PAS0654/ara/10pct/ValsForCuts/problems_savevals_A${STATION}_c${CONFIG}_rd1.txt
+		echo "${!trouble_file}" >> /fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts/problems_savevals_A${STATION}_c${CONFIG}_rd1.txt
 	fi
 done
 

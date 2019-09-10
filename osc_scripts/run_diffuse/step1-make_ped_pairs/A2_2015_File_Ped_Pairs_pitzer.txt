@@ -1389,7 +1389,6 @@
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1109/run006478/event006478.root /fs/scratch/PAS0654/ara/peds/A2/2015/pedestalValues.run006474.dat
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1109/run006480/event006480.root /fs/scratch/PAS0654/ara/peds/A2/2015/pedestalValues.run006479.dat
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1109/run006481/event006481.root /fs/scratch/PAS0654/ara/peds/A2/2015/pedestalValues.run006479.dat
-/fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1125/run000003/event000003.root 
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1127/run000011/event000011.root 
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1201/run000050/event000050.root 
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1201/run000059/event000059.root 
@@ -1504,6 +1503,7 @@
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1229/run006635/event006635.root /fs/scratch/PAS0654/ara/peds/A2/2015/pedestalValues.run006631.dat
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1229/run006637/event006637.root /fs/scratch/PAS0654/ara/peds/A2/2015/pedestalValues.run006636.dat
 /fs/scratch/PAS0654/ara/10pct/RawData/A2/2015/1229/run006638/event006638.root /fs/scratch/PAS0654/ara/peds/A2/2015/pedestalValues.run006636.dat
+
 
 
 

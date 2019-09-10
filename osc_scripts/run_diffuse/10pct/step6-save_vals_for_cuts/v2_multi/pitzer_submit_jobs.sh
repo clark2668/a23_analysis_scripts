@@ -43,7 +43,7 @@ then
 	exit 1 #bounce out, we shouldn't be trying to do this on simulation...
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify/ValsForCuts/A${station}/c${config}"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify_try2/ValsForCuts/A${station}/c${config}"
 	readfile=../data_by_config/A${station}_c${config}_RecoFiles_pitzer.txt
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
 	DataDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/"

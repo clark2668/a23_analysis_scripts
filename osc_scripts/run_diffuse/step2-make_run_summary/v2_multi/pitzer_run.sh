@@ -1,6 +1,5 @@
 #/bin/bash
 #PBS -l nodes=1:ppn=40
-#PBS -A PCON0003
 
 cd $LAUNCHDIR
 

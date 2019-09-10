@@ -8,20 +8,21 @@ year="2016"
 echo '[ Year: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-RadiusBin=6
-#RadiusBin=19
+#RadiusBin=6
+RadiusBin=19
 echo '[ Radius Bin: ' $RadiusBin ' ]'
 export RadiusBin
 
+# energy='20.0'
 energy='224'
 echo '[ Energy: ' $energy ']'
 export energy
 
-config="5"
+config="1"
 echo '[ Config: ' $config ']'
 export config
 
@@ -31,16 +32,16 @@ then
 	FilterDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
 	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_recoproblems_A${station}_E${energy}_R${RadiusBin}.txt"
 	readfile=../../sim_lists/raw_A${station}_c${config}_E${energy}.txt
-	walltime=00:05:00
+	walltime=00:20:00
 	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
-	FilterDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_recoproblems_A${station}_${year}_R${RadiusBin}.txt"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}"
+	FilterDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/data_recoproblems_A${station}_${year}_R${RadiusBin}.txt"
 	readfile=../../make_run_lists/A${station}List_1in10_${year}_bySize_owens.txt
 	walltime=24:00:00
-	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
 fi
 
 echo '[ Fiter file directory: ' $FilterDir ' ]'
@@ -60,11 +61,10 @@ echo '[ LaunchDir: ' $LaunchDir ' ]'
 export LaunchDir
 
 account=PAS0654
+# account=PCON0003
 
 FileNumberStart=0
 FileNumberEnd=5000
-
-echo $readfile | wc -l
 
 tac $readfile > junkme.txt
 
@@ -161,10 +161,10 @@ do
 
 		if [ $simulation == '0' ] #is no simulation
 		then
-			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28 -N 'owens_multi28_A'$station'_'$year'_R'$RadiusBin'_'$FileNumber'_datareco' owens_run.sh	
+			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28 -N 'owens_multi40_A'$station'_'$year'_R'$RadiusBin'_'$FileNumber'_datareco' owens_run.sh
 		elif [ $simulation == '1' ] #is simulation
 		then
-			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28 -N 'owens_multi28_A'$station'_c'$config'_E'$energy'_R'$RadiusBin'_'$FileNumber'_simreco' owens_run.sh
+			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,RADBIN=$RadiusBin,STATION=$station,YEAR=$year,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28 -N 'owens_multi40_A'$station'_c'$config'_E'$energy'_R'$RadiusBin'_'$FileNumber'_simreco' owens_run.sh
 		fi
 		echo "-----------------------------------"
 	fi

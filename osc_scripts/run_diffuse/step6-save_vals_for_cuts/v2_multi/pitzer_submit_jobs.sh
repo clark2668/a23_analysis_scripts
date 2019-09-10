@@ -4,7 +4,7 @@ station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
@@ -55,11 +55,9 @@ then
 	walltime=00:20:00
 elif [ $simulation == '0' ] #is not simulation
 then
-	#OutputDir="/fs/scratch/PAS0654/ara/10pct/ValsForCuts/A${station}/c${config}"
-	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/ValsForCuts/A${station}/c${config}"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts/A${station}/c${config}"
 	readfile=../data_by_config/A${station}_c${config}_MergedFiles_pitzer.txt
-	# readfile=../data_by_config/A${station}_c${config}_MergedFiles_pitzer_problems.txt
-	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
 	walltime=04:00:00
 fi
 

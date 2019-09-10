@@ -25,12 +25,12 @@ echo '[ DropBadChans?: ' $DropBadChans ' ]'
 export DropBadChans
 
 #where are the run summaries?
-SummaryDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
+SummaryDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify_try2/RunSummary/A${station}/${year}"
 echo '[ Run summary directory: ' $SummaryDir ' ]'
 export SummaryDir
 
-account=PCON0003
-# account=PAS0654
+#account=PCON0003
+account=PAS0654
 
 if [ $simulation == '1' ] #is simulation
 then
@@ -42,13 +42,11 @@ then
 	echo "This is sim, which you don't want right now. Go home, you're drunk."
 elif [ $simulation == '0' ] #is not simulation
 then
-	# FilterFileDir="/fs/project/PAS0654/ARA_DATA/A23/ProcessedFile/A${station}/${year}"
-	FilterFileDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
-	
-	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/CWID/A${station}/${year}"
-	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct/CWID/data_CWIDproblems_A${station}_${year}_100pct.txt"
+	FilterFileDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify_try2/ProcessedFile/A${station}/${year}"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify_try2/CWID/A${station}/${year}"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_verify_try2/CWID/data_CWIDproblems_A${station}_${year}_100pct.txt"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
-	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_verify_try2/err_out_log
 	walltime=06:00:00
 	echo '[ Run summary directory: ' $FilterFileDir ' ]'
 	export FilterFileDir
@@ -130,59 +128,59 @@ do
 
 		sa14=($line14)
 		f14=${sa14[0]}
-		p14=${sa14[0]}
+		p14=${sa14[1]}
 
 		sa15=($line15)
 		f15=${sa15[0]}
-		p15=${sa15[0]}
+		p15=${sa15[1]}
 
 		sa16=($line16)
 		f16=${sa16[0]}
-		p16=${sa16[0]}
+		p16=${sa16[1]}
 
 		sa17=($line17)
 		f17=${sa17[0]}
-		p17=${sa17[0]}
+		p17=${sa17[1]}
 
 		sa18=($line18)
 		f18=${sa18[0]}
-		p18=${sa18[0]}
+		p18=${sa18[1]}
 
 		sa19=($line19)
 		f19=${sa19[0]}
-		p19=${sa19[0]}
+		p19=${sa19[1]}
 
 		sa20=($line20)
 		f20=${sa20[0]}
-		p20=${sa20[0]}
+		p20=${sa20[1]}
 
 		sa21=($line21)
 		f21=${sa21[0]}
-		p21=${sa21[0]}
+		p21=${sa21[1]}
 
 		sa22=($line22)
 		f22=${sa22[0]}
-		p22=${sa22[0]}
+		p22=${sa22[1]}
 
 		sa23=($line23)
 		f23=${sa23[0]}
-		p23=${sa23[0]}
+		p23=${sa23[1]}
 
 		sa24=($line24)
 		f24=${sa24[0]}
-		p24=${sa24[0]}
+		p24=${sa24[1]}
 
 		sa25=($line25)
 		f25=${sa25[0]}
-		p25=${sa25[0]}
+		p25=${sa25[1]}
 
 		sa26=($line26)
 		f26=${sa26[0]}
-		p26=${sa26[0]}
+		p26=${sa26[1]}
 
 		sa27=($line27)
 		f27=${sa27[0]}
-		p27=${sa27[0]}
+		p27=${sa27[1]}
 
 		sa28=($line28)
 		f28=${sa28[0]}
@@ -190,51 +188,51 @@ do
 
 		sa29=($line29)
 		f29=${sa29[0]}
-		p29=${sa29[0]}
+		p29=${sa29[1]}
 
 		sa30=($line30)
 		f30=${sa30[0]}
-		p30=${sa30[0]}
+		p30=${sa30[1]}
 
 		sa31=($line31)
 		f31=${sa31[0]}
-		p31=${sa31[0]}
+		p31=${sa31[1]}
 
 		sa32=($line32)
 		f32=${sa32[0]}
-		p32=${sa32[0]}
+		p32=${sa32[1]}
 
 		sa33=($line33)
 		f33=${sa33[0]}
-		p33=${sa33[0]}
+		p33=${sa33[1]}
 
 		sa34=($line34)
 		f34=${sa34[0]}
-		p34=${sa34[0]}
+		p34=${sa34[1]}
 
 		sa35=($line35)
 		f35=${sa35[0]}
-		p35=${sa35[0]}
+		p35=${sa35[1]}
 
 		sa36=($line36)
 		f36=${sa36[0]}
-		p36=${sa36[0]}
+		p36=${sa36[1]}
 
 		sa37=($line37)
 		f37=${sa37[0]}
-		p37=${sa37[0]}
+		p37=${sa37[1]}
 
 		sa38=($line38)
 		f38=${sa38[0]}
-		p38=${sa38[0]}
+		p38=${sa38[1]}
 
 		sa39=($line39)
 		f39=${sa39[0]}
-		p39=${sa39[0]}
+		p39=${sa39[1]}
 
 		sa40=($line40)
 		f40=${sa40[0]}
-		p40=${sa40[0]}
+		p40=${sa40[1]}
 
 		if [ $simulation == '0' ] #is no simulation
 		then
