@@ -1,3 +1,0 @@
-/fs/scratch/PAS0654/ara/wipac_100pct/ProcessedFile/A2/by_config/c2/processed_station_2_run_1449_reco.root 
-/fs/scratch/PAS0654/ara/wipac_100pct/ProcessedFile/A2/by_config/c2/processed_station_2_run_1450_reco.root 
-/fs/scratch/PAS0654/ara/wipac_100pct/ProcessedFile/A2/by_config/c2/processed_station_2_run_2264_reco.root
