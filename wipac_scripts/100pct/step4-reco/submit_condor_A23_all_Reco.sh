@@ -15,16 +15,16 @@ SIMULATION='0'
 echo '[ Simulation: ' $SIMULATION ' ]'
 export SIMULATION
 
-OutputDir="/data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A${STATION}/${CONFIG}"
+OutputDir="/data/user/brianclark/A23Diffuse/100pct_try2/ProcessedFile/A${STATION}/${CONFIG}"
 echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
-FILTERFILEDIR="/data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A${STATION}/${CONFIG}"
+FILTERFILEDIR="/data/user/brianclark/A23Diffuse/100pct_try2/ProcessedFile/A${STATION}/${CONFIG}"
 echo '[ Run summary directory: ' $FILTERFILEDIR ' ]'
 export FILTERFILEDIR
 
-#readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
-readfile=problems_reco_${CONFIG}.txt
+readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
+#readfile=problems_reco_${CONFIG}.txt
 
 FileNumber=0
 

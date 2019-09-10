@@ -6,7 +6,7 @@ cd $ARA_ROOT_DIR
 
 if [ $? -ne 0 ] #error handle if something has gone wrong
 then
-	echo $FileTarget >> /data/user/brianclark/A23Diffuse/100pct/ProcessedFile/problems_A${STATION}_${CONFIG}_rd1.txt
+	echo $FileTarget >> /data/user/brianclark/A23Diffuse/100pct_try2/ProcessedFile/problems_A${STATION}_${CONFIG}_rd1.txt
 else
 	mv $TMPDIR/*.root $OutputDir
 fi

@@ -15,20 +15,20 @@ SIMULATION='0'
 echo '[ Simulation: ' $SIMULATION ' ]'
 export SIMULATION
 
-OutputDir="/data/user/brianclark/A23Diffuse/100pct/CWID/A${STATION}/${CONFIG}"
+OutputDir="/data/user/brianclark/A23Diffuse/100pct_try2/CWID/A${STATION}/${CONFIG}"
 echo '[ Processed file output directory: ' $OutputDir ' ]'
 export OutputDir
 
-FILTERFILEDIR="/data/user/brianclark/A23Diffuse/100pct/ProcessedFile/A${STATION}/${CONFIG}"
+FILTERFILEDIR="/data/user/brianclark/A23Diffuse/100pct_try2/ProcessedFile/A${STATION}/${CONFIG}"
 echo '[ Run summary directory: ' $FILTERFILEDIR ' ]'
 export FILTERFILEDIR
 
-SUMMARYDIR="/data/user/brianclark/A23Diffuse/100pct/RunSummary/A${STATION}/${CONFIG}"
+SUMMARYDIR="/data/user/brianclark/A23Diffuse/100pct_try2/RunSummary/A${STATION}/${CONFIG}"
 echo '[ Run summary directory: ' $SUMMARYDIR ' ]'
 export SUMMARYDIR
 
-#readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs_CWIDredo.txt
-readfile=problems_cw_${CONFIG}.txt
+readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
+#readfile=problems_cw_${CONFIG}.txt
 
 FileNumber=0
 

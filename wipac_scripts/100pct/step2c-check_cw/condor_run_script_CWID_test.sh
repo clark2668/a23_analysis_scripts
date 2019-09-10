@@ -1,12 +1,12 @@
 #!/bin/bash
 
-eval 'source /home/brianclark/A23_analysis_new2/env.sh'
+eval 'source /home/brianclark/A23_analysis_new2/jorgeenv.sh'
 cd $ARA_ROOT_DIR
 ./bin/v2_CW100 $SIMULATION $STATION $CONFIG 1 $FILTERFILEDIR $SUMMARYDIR $TMPDIR/ $FileTarget
 
 if [ $? -ne 0 ] #error handle if something has gone wrong
 then
-	echo $FileTarget >> /data/user/brianclark/A23Diffuse/100pct_try2/CWID/CWIDproblems_A${STATION}_${CONFIG}_rd1.txt
+	echo $FileTarget >> /data/user/brianclark/A23Diffuse/100pct_try2/CWIDTest/CWIDproblems_A${STATION}_${CONFIG}_test.txt
 else
 	mv $TMPDIR/*.root $OutputDir
 fi
