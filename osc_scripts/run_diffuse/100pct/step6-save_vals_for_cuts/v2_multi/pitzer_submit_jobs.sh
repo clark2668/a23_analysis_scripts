@@ -12,7 +12,7 @@ energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
-config="1"
+config="4"
 echo '[ Config: ' $config ']'
 export config
 
