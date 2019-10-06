@@ -1,10 +1,10 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2015"
+year="2016"
 echo '[ Year: ' $year ' ]'
 export year
 
@@ -12,8 +12,8 @@ simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-RadiusBin=6
-#RadiusBin=19
+#RadiusBin=6
+RadiusBin=19
 echo '[ Radius Bin: ' $RadiusBin ' ]'
 export RadiusBin
 
@@ -40,7 +40,7 @@ then
 	FilterDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}"
 	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/data_recoproblems_A${station}_${year}_R${RadiusBin}.txt"
 	readfile=../../make_run_lists/A${station}List_1in10_${year}_bySize_pitzer.txt
-	walltime=24:00:00
+	walltime=09:00:00
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
 fi
 
