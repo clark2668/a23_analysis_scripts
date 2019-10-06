@@ -241,20 +241,6 @@ do
 		# f40=${sa40[0]}
 		# p40=${sa40[0]}
 
-		# if (( $FileNumber == 680 && $station == '3' && $year == '2013' ))
-		# then
-		# 	echo 'Bumped walltime'
-		# 	walltime=20:00:00
-		# else
-		# 	walltime=06:00:00
-		# fi
-		
-		# if (( $FileNumber != 680  ))
-		# then
-		#     echo "Skip "$FileNumber
-		#     FileNumber=$((FileNumber+40))
-		#     continue
-		# fi
 
 		if [ $simulation == '0' ] #is no simulation
 		then

@@ -120,7 +120,7 @@ declare F_38=$F38
 ./pitzer_doThis.sh $SIMULATION $STATION $CONFIG $DROPCHANS $SUMMARYDIR $TMPDIR $F39 $P39 &
 declare pid_39=$!
 declare F_39=$F39
-./pitzer_doThis.sh $SIMULATION $STATION $CONFIG $DROPCHANS $SUMMARYDIR $TMPDIR $F40 $P40&
+./pitzer_doThis.sh $SIMULATION $STATION $CONFIG $DROPCHANS $SUMMARYDIR $TMPDIR $F40 $P40 &
 declare pid_40=$!
 declare F_40=$F40
 

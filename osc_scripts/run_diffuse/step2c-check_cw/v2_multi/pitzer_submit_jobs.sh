@@ -4,11 +4,11 @@ station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-config="6"
+config="1"
 echo '[ Config: ' $config ']'
 export config
 
-year="2015"
+year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -20,12 +20,12 @@ energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
-DropBadChans='0'
+DropBadChans='1'
 echo '[ DropBadChans?: ' $DropBadChans ' ]'
 export DropBadChans
 
 #where are the run summaries?
-SummaryDir="/fs/scratch/PAS0654/ara/10pct/RunSummary/A${station}/${year}"
+SummaryDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/RunSummary/A${station}/${year}"
 echo '[ Run summary directory: ' $SummaryDir ' ]'
 export SummaryDir
 
@@ -34,17 +34,19 @@ account=PAS0654
 
 if [ $simulation == '1' ] #is simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/sim/CWID/A${station}/c${config}/E${energy}"
-	ErrFile="/fs/scratch/PAS0654/ara/sim/CWID/sim_CWIDproblems_A${station}_c${config}.txt"
-	readfile=../../sim_lists/raw_A${station}_c${config}_E${energy}.txt
-	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
-	walltime=00:20:00
+	# OutputDir="/fs/scratch/PAS0654/ara/sim/CWID/A${station}/c${config}/E${energy}"
+	# ErrFile="/fs/scratch/PAS0654/ara/sim/CWID/sim_CWIDproblems_A${station}_c${config}.txt"
+	# readfile=../../sim_lists/raw_A${station}_c${config}_E${energy}.txt
+	# err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
+	# walltime=00:20:00
+	echo "why are you doing sim right now...quitting..."
+	exit 1
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/10pct/CWID/A${station}/${year}"
-	ErrFile="/fs/scratch/PAS0654/ara/10pct/CWID/data_CWIDproblems_A${station}_${year}.txt"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/CWID/A${station}/${year}"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/CWID/data_CWIDproblems_A${station}_${year}.txt"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
-	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
 	walltime=06:00:00
 fi
 
@@ -68,11 +70,29 @@ FileNumber=0
 while read line1 && read line2 && read line3 && read line4 && read line5 && read line6 && read line7 && read line8 && read line9 && read line10 && read line11 && read line12 && read line13 && read line14 && read line15 && read line16 && read line17 && read line18 && read line19 && read line20 && read line21 && read line22 && read line23 && read line24 && read line25 && read line26 && read line27 && read line28 && read line29 && read line30 && read line31 && read line32 && read line33 && read line34 && read line35 && read line36 && read line37 && read line38 && read line39 && read line40
 do
 
+	# walltime bump if this will contain the "extra long" 2013 runs (ugh)
 	if [ $station == '3' ]
 	then
-		if [ $FileNumber == '680' ]
+		if [ $year == '2013' ]
 		then
-				walltime=12:00:00
+			if [ $FileNumber == '640' ]
+			then
+				echo 'Bumped walltime'
+				walltime=20:00:00
+			fi
+
+			if [ $FileNumber == '680' ]
+			then
+				echo 'Bumped walltime'
+				walltime=20:00:00
+			fi
+
+			if [ $FileNumber == '720' ]
+			then
+				echo 'Bumped walltime'
+				walltime=20:00:00
+			fi
+
 		fi
 	fi
 
@@ -133,59 +153,59 @@ do
 
 		sa14=($line14)
 		f14=${sa14[0]}
-		p14=${sa14[0]}
+		p14=${sa14[1]}
 
 		sa15=($line15)
 		f15=${sa15[0]}
-		p15=${sa15[0]}
+		p15=${sa15[1]}
 
 		sa16=($line16)
 		f16=${sa16[0]}
-		p16=${sa16[0]}
+		p16=${sa16[1]}
 
 		sa17=($line17)
 		f17=${sa17[0]}
-		p17=${sa17[0]}
+		p17=${sa17[1]}
 
 		sa18=($line18)
 		f18=${sa18[0]}
-		p18=${sa18[0]}
+		p18=${sa18[1]}
 
 		sa19=($line19)
 		f19=${sa19[0]}
-		p19=${sa19[0]}
+		p19=${sa19[1]}
 
 		sa20=($line20)
 		f20=${sa20[0]}
-		p20=${sa20[0]}
+		p20=${sa20[1]}
 
 		sa21=($line21)
 		f21=${sa21[0]}
-		p21=${sa21[0]}
+		p21=${sa21[1]}
 
 		sa22=($line22)
 		f22=${sa22[0]}
-		p22=${sa22[0]}
+		p22=${sa22[1]}
 
 		sa23=($line23)
 		f23=${sa23[0]}
-		p23=${sa23[0]}
+		p23=${sa23[1]}
 
 		sa24=($line24)
 		f24=${sa24[0]}
-		p24=${sa24[0]}
+		p24=${sa24[1]}
 
 		sa25=($line25)
 		f25=${sa25[0]}
-		p25=${sa25[0]}
+		p25=${sa25[1]}
 
 		sa26=($line26)
 		f26=${sa26[0]}
-		p26=${sa26[0]}
+		p26=${sa26[1]}
 
 		sa27=($line27)
 		f27=${sa27[0]}
-		p27=${sa27[0]}
+		p27=${sa27[1]}
 
 		sa28=($line28)
 		f28=${sa28[0]}
@@ -193,66 +213,52 @@ do
 
 		sa29=($line29)
 		f29=${sa29[0]}
-		p29=${sa29[0]}
+		p29=${sa29[1]}
 
 		sa30=($line30)
 		f30=${sa30[0]}
-		p30=${sa30[0]}
+		p30=${sa30[1]}
 
 		sa31=($line31)
 		f31=${sa31[0]}
-		p31=${sa31[0]}
+		p31=${sa31[1]}
 
 		sa32=($line32)
 		f32=${sa32[0]}
-		p32=${sa32[0]}
+		p32=${sa32[1]}
 
 		sa33=($line33)
 		f33=${sa33[0]}
-		p33=${sa33[0]}
+		p33=${sa33[1]}
 
 		sa34=($line34)
 		f34=${sa34[0]}
-		p34=${sa34[0]}
+		p34=${sa34[1]}
 
 		sa35=($line35)
 		f35=${sa35[0]}
-		p35=${sa35[0]}
+		p35=${sa35[1]}
 
 		sa36=($line36)
 		f36=${sa36[0]}
-		p36=${sa36[0]}
+		p36=${sa36[1]}
 
 		sa37=($line37)
 		f37=${sa37[0]}
-		p37=${sa37[0]}
+		p37=${sa37[1]}
 
 		sa38=($line38)
 		f38=${sa38[0]}
-		p38=${sa38[0]}
+		p38=${sa38[1]}
 
 		sa39=($line39)
 		f39=${sa39[0]}
-		p39=${sa39[0]}
+		p39=${sa39[1]}
 
 		sa40=($line40)
 		f40=${sa40[0]}
-		p40=${sa40[0]}
+		p40=${sa40[1]}
 
-		# if (( $FileNumber == 680 && $station == '3' && $year == '2013' ))
-		# then
-		# 	echo 'Bumped walltime'
-		# 	walltime=20:00:00
-		# else
-		# 	walltime=06:00:00
-		# fi
-		
-		# if (( $FileNumber != 680  ))
-		# then
-		#     echo "Skip "$FileNumber
-		#     FileNumber=$((FileNumber+40))
-		#     continue
-		# fi
 
 		if [ $simulation == '0' ] #is no simulation
 		then
