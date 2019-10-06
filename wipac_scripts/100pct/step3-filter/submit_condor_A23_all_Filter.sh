@@ -2,7 +2,7 @@
 source ~/bashrc/A23Diffuse_bashrc.sh
 
 #what station?
-STATION="2"
+STATION="3"
 echo '[ Station: ' $STATION ' ]'
 export STATION
 
@@ -24,6 +24,7 @@ echo '[ Run summary directory: ' $SUMMARYDIR ' ]'
 export SUMMARYDIR
 
 readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
+#readfile=/data/user/brianclark/A23Diffuse/100pct_try2/ProcessedFile/problems_A3_2013_rd1.txt
 
 FileNumber=0
 
