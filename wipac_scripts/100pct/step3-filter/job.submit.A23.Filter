@@ -6,8 +6,9 @@ should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 initialdir=/home/brianclark/A23_analysis_new2/AraRoot
 getenv = true
-Requirements = (OpSysMajorVer =?= 7)
-request_memory = 4GB
+Requirements = (OpSysMajorVer =?= 7) && (Machine!="gtx-2.icecube.wisc.edu") && (Machine!="gtx-5.icecube.wisc.edu") && (Machine!="gtx-3.icecube.wisc.edu") && (Machine!="rad-2.icecube.wisc.edu") && (Machine!="rad-3.icecube.wisc.edu") && (Machine!="gtx-8.icecube.wisc.edu") && (Machine!="rad-4.icecube.wisc.edu") && (Machine!="rad-6.icecube.wisc.edu") && (Machine!="rad-7.icecube.wisc.edu") && (Machine!="rad-8.icecube.wisc.edu") && (Machine!="gtx-1.icecube.wisc.edu") && (Machine!="gtx-6.icecube.wisc.edu") && (Machine!="n-24.icecube.wisc.edu") && (Machine!="node128.icecube.wisc.edu") && (Machine!="n-10.icecube.wisc.edu") && (Machine!="c9-9.icecube.wisc.edu") && (Machine!="c9-11.icecube.wisc.edu") && (Machine!="c9-13.icecube.wisc.edu") && (Machine!="c9-18.icecube.wisc.edu") && (Machine!="node009.icecube.wisc.edu") && (Machine!="node023.icecube.wisc.edu") && (Machine!="c8-11.icecube.wisc.edu") && (Machine!="n-6.icecube.wisc.edu") && (Machine!="c8-8.icecube.wisc.edu")
+request_memory = 1GB
+Rank = (Machine!="10.128.10.212")
 
 Executable = /home/brianclark/A23_analysis_new2/a23_analysis_scripts/wipac_scripts/100pct/step3-filter/condor_run_script_Filter.sh
 
