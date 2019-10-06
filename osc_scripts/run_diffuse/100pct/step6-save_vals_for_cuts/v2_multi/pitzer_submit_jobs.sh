@@ -12,7 +12,7 @@ energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
-config="4"
+config="5"
 echo '[ Config: ' $config ']'
 export config
 
@@ -44,7 +44,7 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ValsForCuts/A${station}/c${config}"
-	readfile=../data_by_config/A${station}_c${config}_RecoFiles_pitzer.txt
+	readfile=../data_by_config/A${station}_c${config}_RecoFiles_pitzer_redo2.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/err_out_logs
 	
 	DataDir="/fs/project/PAS0654/ARA_DATA/A23/100pct/"
