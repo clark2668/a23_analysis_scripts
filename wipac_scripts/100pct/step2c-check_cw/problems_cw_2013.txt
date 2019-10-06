@@ -1,2 +1,0 @@
-/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run1449/event1449.root 
-/data/wipac/ARA/2013/filtered/full2013Data/ARA02/root/run1450/event1450.root 
