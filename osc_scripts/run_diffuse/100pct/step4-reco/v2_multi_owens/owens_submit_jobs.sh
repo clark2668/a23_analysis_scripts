@@ -6,7 +6,7 @@ station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2013"
+year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -46,8 +46,9 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/A${station}/${year}/"
-	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/data_filterproblems100_A${station}_${year}.txt"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/data_recoproblems100_A${station}_${year}.txt"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens.txt
+	readfile=A${station}_${year}_reco_rd3.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/err_out_logs
 	walltime=72:00:00
 	# walltime=00:10:00
@@ -192,7 +193,7 @@ do
 
 		if [ $simulation == '0' ] #is no simulation
 		then
-			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,DROPCHANS=$DropBadChans,STATION=$station,YEAR=$year,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28 -N 'owens_multi28_A'$station'_'$year'_'$FileNumber'_datareco100' owens_run.sh
+			qsub -A $account -l walltime=$walltime -e $err_out_location -o $err_out_location -v FILTERDIR=$FilterDir,ERRFILE=$ErrFile,LAUNCHDIR=$LaunchDir,RUNDIR=$RunDir,OUTPUTDIR=$OutputDir,DROPCHANS=$DropBadChans,STATION=$station,YEAR=$year,CONFIG=$config,ENERGY=$energy,SIMULATION=$simulation,F1=$f1,P1=$p1,F2=$f2,P2=$p2,F3=$f3,P3=$p3,F4=$f4,P4=$p4,F5=$f5,P5=$p5,F6=$f6,P6=$p6,F7=$f7,P7=$p7,F8=$f8,P8=$p8,F9=$f9,P9=$p9,F10=$f10,P10=$p10,F11=$f11,P11=$p11,F12=$f12,P12=$p12,F13=$f13,P13=$p13,F14=$f14,P14=$p14,F15=$f15,P15=$p15,F16=$f16,P16=$p16,F17=$f17,P17=$p17,F18=$f18,P18=$p18,F19=$f19,P19=$p19,F20=$f20,P20=$p20,F21=$f21,P21=$p21,F22=$f22,P22=$p22,F23=$f23,P23=$p23,F24=$f24,P24=$p24,F25=$f25,P25=$p25,F26=$f26,P26=$p26,F27=$f27,P27=$p27,F28=$f28,P28=$p28 -N 'owens_multi28_A'$station'_'$year'_'$FileNumber'_datareco100_pitzersneaky' owens_run.sh
 	
 		elif [ $simulation == '1' ] #is simulation
 		then
