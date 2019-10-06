@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -39,7 +39,7 @@ then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/RunSummary/A${station}/${year}"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens_redo.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
-	walltime=00:35:00
+	walltime=01:35:00
 	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/RunSummary/data_summaryproblems_A${station}_${year}.txt"
 fi
 
