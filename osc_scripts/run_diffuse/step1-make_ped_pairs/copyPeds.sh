@@ -18,4 +18,4 @@ while read line; do
 	else
 		echo "Pedestal not specified; nothing to be done."
 	fi
-done <A3_2013_File_Ped_Pairs.txt
+done <A3_2016_File_Ped_Pairs.txt
