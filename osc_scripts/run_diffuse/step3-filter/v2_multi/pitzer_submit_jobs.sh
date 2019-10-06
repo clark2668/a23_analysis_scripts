@@ -4,11 +4,11 @@ station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2014"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
-simulation='1'
+simulation='0'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
@@ -44,9 +44,9 @@ elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}"
 	ErrFile="/fs/scratch/PAS0654/ara/10pct/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
-	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
+	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer_redo.txt
 	err_out_location=/fs/scratch/PAS0654/ara/10pct/err_out_logs
-	walltime=02:50:00
+	walltime=04:50:00
 fi
 
 #where should the outputs be stored?

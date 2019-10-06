@@ -1,10 +1,10 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2016"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -41,11 +41,11 @@ then
 	walltime=00:10:00
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo//ProcessedFile/A${station}/${year}"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}"
 	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
-	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens.txt
+	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens_redo.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
-	walltime=01:40:00
+	walltime=04:00:00
 fi
 
 #where should the outputs be stored?
@@ -184,6 +184,29 @@ do
 		sa28=($line28)
 		f28=${sa28[0]}
 		p28=${sa28[1]}
+
+		
+		# there's a bundle of files in 2013 that are *huge* (5x normal size)
+		# and require special walltime considerations
+		# in the "owens" version, they fall in the bundles indexed by 644 and 672
+		# so we bump the walltime for those files
+		if (( $FileNumber == 644 && $station == '3' && $year == '2013' ))
+		then
+			echo 'Bumped walltime'
+			walltime=03:00:00
+		else
+			nothing="nothing" #do nothing, lol
+			walltime=04:00:00
+		fi
+
+		if (( $FileNumber == 672 && $station == '3' && $year == '2013' ))
+		then
+			echo 'Bumped walltime'
+			walltime=03:00:00
+		else
+			nothing="nothing" #do nothing, lol
+			walltime=04:00:00
+		fi
 
 		if [ $simulation == '0' ] #is no simulation
 		then
