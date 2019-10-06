@@ -19,7 +19,12 @@ then
 	if [ $station -eq 2 ]
 	then
 		find /data/user/brianclark/A23Diffuse/100pct/peds/A2_2013_peds/run*/*pedestalValues* > pedestalValues_A2_2013.txt
+	elif [ $station -eq 3 ]
+	then
+		find /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run*/*pedestalValues* > pedestalValues_A3_2013.txt
 	fi
+
+
 elif [ $year -eq 2014 ]
 then
 	if [ $station -eq 2 ]

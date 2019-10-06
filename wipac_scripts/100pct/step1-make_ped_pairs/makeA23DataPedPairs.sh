@@ -37,7 +37,7 @@ then
 			PedTarget=$(getPedFileFromRunFile pedestalValues_A3_2013.txt $FileTarget)
 			echo "$FileTarget $PedTarget" #uncomment if you wanted to see this printed to the screen
 			echo "$FileTarget $PedTarget" >> A3_2013_File_Ped_Pairs.txt
-		done < ../step0-make_run_list/A3List_1in10_2013.txt
+		done < ../step0-make_run_list/A3List_10in10_2013.txt
 	fi
 elif [ $year -eq 2014 ]
 then
@@ -58,7 +58,7 @@ then
 			PedTarget=$(getPedFileFromRunFile pedestalValues_A3_2014.txt $FileTarget)
 			echo "$FileTarget $PedTarget" #uncomment if you wanted to see this printed to the screen
 			echo "$FileTarget $PedTarget" >> A3_2014_File_Ped_Pairs.txt
-		done < ../step0-make_run_list/A3List_1in10_2014.txt
+		done < ../step0-make_run_list/A3List_10in10_2014.txt
 	fi
 elif [ $year -eq 2015 ]
 then
@@ -79,7 +79,7 @@ then
 			PedTarget=$(getPedFileFromRunFile pedestalValues_A3_2015.txt $FileTarget)
 			echo "$FileTarget $PedTarget" #uncomment if you wanted to see this printed to the screen
 			echo "$FileTarget $PedTarget" >> A3_2015_File_Ped_Pairs.txt
-		done < ../step0-make_run_list/A3List_1in10_2015.txt
+		done < ../step0-make_run_list/A3List_10in10_2015.txt
 	fi
 elif [ $year -eq 2016 ]
 then
@@ -100,6 +100,6 @@ then
 			PedTarget=$(getPedFileFromRunFile pedestalValues_A3_2016.txt $FileTarget)
 			echo "$FileTarget $PedTarget" #uncomment if you wanted to see this printed to the screen
 			echo "$FileTarget $PedTarget" >> A3_2016_File_Ped_Pairs.txt
-		done < ../step0-make_run_list/A3List_1in10_2016.txt
+		done < ../step0-make_run_list/A3List_10in10_2016.txt
 	fi
 fi
