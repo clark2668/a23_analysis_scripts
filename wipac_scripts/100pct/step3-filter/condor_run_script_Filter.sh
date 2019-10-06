@@ -1,5 +1,6 @@
 #!/bin/bash
 
+uname -a #for host debugging
 eval 'source /home/brianclark/A23_analysis_new2/env.sh'
 cd $ARA_ROOT_DIR
 ./bin/v2_Filter $SIMULATION $STATION $CONFIG $SUMMARYDIR $TMPDIR/ $FileTarget
