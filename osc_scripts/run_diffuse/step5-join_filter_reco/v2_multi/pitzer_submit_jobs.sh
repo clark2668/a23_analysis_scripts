@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -20,7 +20,7 @@ config="4"
 echo '[ Config: ' $config ']'
 export config
 
-account=PCON0003
+account=PAS0654
 walltime=00:03:00
 
 if [ $simulation == '1' ] #is simulation

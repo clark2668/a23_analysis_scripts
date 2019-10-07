@@ -12,4 +12,4 @@ year=$2
 echo "[ Station: " $station " ] "
 echo "[ Year: " $year " ] "
 
-find /fs/scratch/PAS0654/ara/10pct/ProcessedFile/A${station}/${year}/*filter* > A${station}FilterList_1in10_${year}.txt
+find /fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}/*filter* > A${station}FilterList_1in10_${year}.txt
