@@ -1,6 +1,6 @@
 #!/bin/bash
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -8,7 +8,7 @@ config="3"
 echo '[ Config: ' $config ']'
 export config
 
-year="2016"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -43,11 +43,11 @@ then
 	exit 1
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/CWID/A${station}/${year}"
-	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/CWID/data_CWIDproblems_A${station}_${year}.txt"
-	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens.txt
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/CWID_new/A${station}/${year}"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/CWID_new/data_CWIDproblems_A${station}_${year}.txt"
+	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens_redo.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
-	walltime=06:00:00
+	walltime=24:00:00
 fi
 
 #where should the outputs be stored?
@@ -70,13 +70,16 @@ FileNumber=0
 while read line1 && read line2 && read line3 && read line4 && read line5 && read line6 && read line7 && read line8 && read line9 && read line10 && read line11 && read line12 && read line13 && read line14 && read line15 && read line16 && read line17 && read line18 && read line19 && read line20 && read line21 && read line22 && read line23 && read line24 && read line25 && read line26 && read line27 && read line28
 do
 
-	if [ $station == '3' ]
-	then
-		if [ $FileNumber == '680' ]
-		then
-				walltime=12:00:00
-		fi
-	fi
+	# if [ $station == '3' ]
+	# then
+	# 	if [ $FileNumber == '644' ]
+	# 	then
+	# 		if [ $year == '2013' ]
+	# 		then
+	# 			walltime=12:00:00
+	# 		fi
+	# 	fi
+	# fi
 
 	if (( $FileNumber >= $FileNumberStart && $FileNumber <= $FileNumberEnd ))
 	then
@@ -192,55 +195,6 @@ do
 		sa28=($line28)
 		f28=${sa28[0]}
 		p28=${sa28[1]}
-
-		# sa29=($line29)
-		# f29=${sa29[0]}
-		# p29=${sa29[0]}
-
-		# sa30=($line30)
-		# f30=${sa30[0]}
-		# p30=${sa30[0]}
-
-		# sa31=($line31)
-		# f31=${sa31[0]}
-		# p31=${sa31[0]}
-
-		# sa32=($line32)
-		# f32=${sa32[0]}
-		# p32=${sa32[0]}
-
-		# sa33=($line33)
-		# f33=${sa33[0]}
-		# p33=${sa33[0]}
-
-		# sa34=($line34)
-		# f34=${sa34[0]}
-		# p34=${sa34[0]}
-
-		# sa35=($line35)
-		# f35=${sa35[0]}
-		# p35=${sa35[0]}
-
-		# sa36=($line36)
-		# f36=${sa36[0]}
-		# p36=${sa36[0]}
-
-		# sa37=($line37)
-		# f37=${sa37[0]}
-		# p37=${sa37[0]}
-
-		# sa38=($line38)
-		# f38=${sa38[0]}
-		# p38=${sa38[0]}
-
-		# sa39=($line39)
-		# f39=${sa39[0]}
-		# p39=${sa39[0]}
-
-		# sa40=($line40)
-		# f40=${sa40[0]}
-		# p40=${sa40[0]}
-
 
 		if [ $simulation == '0' ] #is no simulation
 		then
