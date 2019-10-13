@@ -12,4 +12,4 @@ config=$2
 echo "[ Station: " $station " ] "
 echo "[ Config: " $config " ] "
 
-find /fs/scratch/PAS0654/ara/10pct/Joined/A$station/by_config/c$config/*.root > 'A'$station'_c'$config'_MergedFiles_pitzer.txt'
+find /fs/project/PAS0654/ARA_DATA/A23/10pct_redo/Joined/A$station/by_config/c$config/*.root > 'A'$station'_c'$config'_MergedFiles_pitzer.txt'
