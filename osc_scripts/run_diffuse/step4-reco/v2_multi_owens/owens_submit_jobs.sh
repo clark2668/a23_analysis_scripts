@@ -1,4 +1,4 @@
-7#!/bin/bash
+#!/bin/bash
 
 station="3"
 echo '[ Station: ' $station ' ]'
@@ -8,12 +8,12 @@ year="2015"
 echo '[ Year: ' $year ' ]'
 export year
 
-simulation='0'
+simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-RadiusBin=6
-#RadiusBin=19
+# RadiusBin=6
+RadiusBin=19
 echo '[ Radius Bin: ' $RadiusBin ' ]'
 export RadiusBin
 
@@ -22,18 +22,18 @@ energy='224'
 echo '[ Energy: ' $energy ']'
 export energy
 
-config="1"
+config="5"
 echo '[ Config: ' $config ']'
 export config
 
 if [ $simulation == '1' ] #is simulation
 then
-	OutputDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
-	FilterDir="/fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}"
-	ErrFile="/fs/scratch/PAS0654/ara/sim/ProcessedFile/sim_recoproblems_A${station}_E${energy}_R${RadiusBin}.txt"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/sim/ProcessedFile/A${station}/c${config}/E${energy}"
+	FilterDir="/fs/project/PAS0654/ARA_DATA/A23/sim/ProcessedFile/A${station}/c${config}/E${energy}"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/sim/ProcessedFile/sim_recoproblems_A${station}_E${energy}_R${RadiusBin}.txt"
 	readfile=../../sim_lists/raw_A${station}_c${config}_E${energy}.txt
-	walltime=00:20:00
-	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
+	walltime=00:05:00
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/sim/err_out_logs
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}"
