@@ -4,14 +4,14 @@ station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-config="1"
+config="4"
 echo '[ Config: ' $config ']'
 export config
 
 OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/other_studies/BasicInfo/A${station}/c${config}"
 ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct/other_studies/BasicInfo/problems_A${station}_c${config}.txt" 
 readfile=../A${station}_c${config}_Files.txt
-walltime=00:10:00
+walltime=00:30:00
 err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct/other_studies/BasicInfo/err_out_log
 
 echo '[ Output Directory: ' $OutputDir ' ]'
