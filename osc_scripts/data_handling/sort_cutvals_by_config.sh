@@ -1,4 +1,5 @@
 #!/bin/bash
+#update w/ new station A3 breakdown
 
 station=$1
 if [[ $station -eq 0 ]] ; then
@@ -47,18 +48,22 @@ do
 			config=4
 		fi
 	elif [[ $station -eq 3 ]]; then
-		if [[ $run_no -ge 0 && $run_no -le 3  ]]; then
+		if [[ $run_no -ge 0 && $run_no -le 4  ]]; then
 			config=1
 		elif [[ $run_no -ge 470 && $run_no -le 1448  ]]; then
 			config=2
-		elif [[ $run_no -ge 1449 && $run_no -le 3061  ]]; then
+		elif [[ $run_no -ge 1449 && $run_no -le 1901  ]]; then
 			config=1
-		elif [[ $run_no -ge 3063 && $run_no -le 6004  ]]; then
+		elif [[ $run_no -ge 1902 && $run_no -le 3103  ]]; then
+			config=5
+		elif [[ $run_no -ge 3104 && $run_no -le 6004  ]]; then
 			config=3
 		elif [[ $run_no -ge 6005 && $run_no -le 7653  ]]; then
 			config=4
 		elif [[ $run_no -ge 7658 && $run_no -le 7808  ]]; then
 			config=3
+		else
+			echo "I don't know what to do with run number "$run_no
 		fi
 	fi
 
