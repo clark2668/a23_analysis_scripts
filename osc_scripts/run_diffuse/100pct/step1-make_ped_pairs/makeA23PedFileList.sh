@@ -21,7 +21,7 @@ then
 		find /fs/scratch/PAS0654/ara/peds/A2/2013/*/*pedestalValues* > pedestalValues_A2_2013.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/*/*pedestalValues* > pedestalValues_A3_2013.txt
 	fi
 elif [ $year -eq 2014 ]
 then
@@ -30,7 +30,7 @@ then
 		find /fs/scratch/PAS0654/ara/peds/A2/2014/*pedestalValues* > pedestalValues_A2_2014.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2014/pedestalValues* > pedestalValues_A3_2014.txt
 	fi
 elif [ $year -eq 2015 ]
 then
@@ -39,7 +39,7 @@ then
 		find /fs/scratch/PAS0654/ara/peds/A2/2015/*pedestalValues* > pedestalValues_A2_2015.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2015/*pedestalValues* > pedestalValues_A3_2015.txt
 	fi
 elif [ $year -eq 2016 ]
 then
@@ -48,6 +48,6 @@ then
 		find /fs/scratch/PAS0654/ara/peds/A2/2016/*pedestalValues* > pedestalValues_A2_2016.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2016/*pedestalValues* > pedestalValues_A3_2016.txt
 	fi
 fi
