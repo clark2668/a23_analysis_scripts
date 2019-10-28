@@ -23,7 +23,7 @@ then
 		find /fs/project/PAS0654/ARA_DATA/A23/RawData/A2/2013/*/event*.root ! -name 'eventHk*.root' > A2List_10in10_2013.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/*/event*.root ! -name 'eventHk*.root' > A3List_10in10_2013.txt
 	fi
 elif [ $year -eq 2014 ]
 then
@@ -32,7 +32,7 @@ then
 		find /fs/project/PAS0654/ARA_DATA/A23/RawData/A2/2014/*/run*/event*.root ! -name 'eventHk*.root' > A2List_10in10_2014.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2014/*/run*/event*.root ! -name 'eventHk*.root' > A3List_10in10_2014.txt
 	fi
 elif [ $year -eq 2015 ]
 then
@@ -41,7 +41,7 @@ then
 		find /fs/project/PAS0654/ARA_DATA/A23/RawData/A2/2015/*/run*/event*.root ! -name 'eventHk*.root' > A2List_10in10_2015.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2015/*/run*/event*.root ! -name 'eventHk*.root' > A3List_10in10_2015.txt
 	fi
 elif [ $year -eq 2016 ]
 then
@@ -50,6 +50,6 @@ then
 		find /fs/project/PAS0654/ARA_DATA/A23/RawData/A2/2016/*/run*/event*.root ! -name 'eventHk*.root' > A2List_10in10_2016.txt
 	elif [ $station -eq 3 ]
 	then
-		echo "blah to A3"
+		find /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2016/*/run*/event*.root ! -name 'eventHk*.root' > A3List_10in10_2016.txt
 	fi
 fi
