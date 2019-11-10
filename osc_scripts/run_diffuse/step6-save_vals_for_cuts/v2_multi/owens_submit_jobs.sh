@@ -24,14 +24,36 @@ export DropBadChans
 V_SNR_BIN=0
 H_SNR_BIN=0
 
-# initial test values for A3 (very loose I think)
-V_WFRMS_CUT=-0.5
-H_WFRMS_CUT=-0.5
+# initial test values for A2
+V_WFRMS_CUT=-1.3
+H_WFRMS_CUT=-1.4
 
-
-# the A2 final values settled on
-# V_WFRMS_CUT=-1.30
-# H_WFRMS_CUT=-1.40
+if [ $station == '3' ] #is simulation
+then
+	V_SNR_BIN=0
+	H_SNR_BIN=1
+	if [ $config == '1' ]
+	then
+		V_WFRMS_CUT=-1.2
+		H_WFRMS_CUT=-1.3
+	elif [ $config == '2' ] #is not simulation
+	then
+		V_WFRMS_CUT=-1.3
+		H_WFRMS_CUT=-1.4
+	elif [ $config == '3' ] #is not simulation
+	then
+		V_WFRMS_CUT=-1.0
+		H_WFRMS_CUT=-1.1
+	elif [ $config == '4' ] #is not simulation
+	then
+		V_WFRMS_CUT=-1.0
+		H_WFRMS_CUT=-1.1
+	elif [ $config == '5' ] #is not simulation
+	then
+		V_WFRMS_CUT=-0.7
+		H_WFRMS_CUT=-0.8
+	fi
+fi
 
 export V_SNR_BIN
 export H_SNR_BIN

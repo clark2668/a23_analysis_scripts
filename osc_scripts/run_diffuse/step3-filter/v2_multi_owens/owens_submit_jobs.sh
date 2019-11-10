@@ -1,10 +1,10 @@
 #!/bin/bash
 
-station="3"
+station="2"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2013"
+year="2016"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -42,10 +42,18 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/A${station}/${year}"
+
+	#overwrite this just for a quick study
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct/other_studies/FilterTearDown/A${station}/${year}"
+
 	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ProcessedFile/data_filterproblems_A${station}_${year}.txt"
-	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens_redo.txt
+	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
-	walltime=04:00:00
+
+	#overwrite this just for a quick study
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct/other_studies/FilterTearDown/err_out_log
+
+	walltime=00:20:00
 fi
 
 #where should the outputs be stored?
@@ -196,7 +204,7 @@ do
 			walltime=03:00:00
 		else
 			nothing="nothing" #do nothing, lol
-			walltime=04:00:00
+			walltime=00:30:00
 		fi
 
 		if (( $FileNumber == 672 && $station == '3' && $year == '2013' ))
@@ -205,7 +213,7 @@ do
 			walltime=03:00:00
 		else
 			nothing="nothing" #do nothing, lol
-			walltime=04:00:00
+			walltime=00:30:00
 		fi
 
 		if [ $simulation == '0' ] #is no simulation
