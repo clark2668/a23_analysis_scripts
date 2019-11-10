@@ -361,7 +361,6 @@
 /data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1478/event1478.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_001464/pedestalValues.run001464.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1480/event1480.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_001479/pedestalValues.run001479.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1481/event1481.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_001479/pedestalValues.run001479.dat
-/data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1482/event1482.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_001479/pedestalValues.run001479.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1483/event1483.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_001479/pedestalValues.run001479.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1485/event1485.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_001484/pedestalValues.run001484.dat
 /data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1486/event1486.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_001484/pedestalValues.run001484.dat
