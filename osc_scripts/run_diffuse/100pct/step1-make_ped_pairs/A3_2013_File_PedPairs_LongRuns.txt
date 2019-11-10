@@ -1,0 +1,40 @@
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run487/event487.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run488/event488.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run489/event489.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run490/event490.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run491/event491.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run492/event492.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run493/event493.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run494/event494.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run495/event495.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run496/event496.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run497/event497.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run498/event498.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run499/event499.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run500/event500.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run501/event501.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run502/event502.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run503/event503.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run504/event504.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run505/event505.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+/fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A3/2013/run506/event506.root /fs/project/PAS0654/ARA_DATA/A23/peds/A3/2013/run_000071/pedestalValues.run000071.dat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
