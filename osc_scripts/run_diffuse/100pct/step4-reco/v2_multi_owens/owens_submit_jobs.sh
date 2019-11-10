@@ -2,7 +2,7 @@
 
 #./owens_doThis.sh $SIMULATION $STATION $YEAR $FILTERDIR $TMPDIR $F1 $P1 &
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
@@ -48,10 +48,8 @@ then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/A${station}/${year}/"
 	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/data_recoproblems100_A${station}_${year}.txt"
 	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_owens.txt
-	readfile=A${station}_${year}_reco_rd3.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/err_out_logs
-	walltime=72:00:00
-	# walltime=00:10:00
+	walltime=24:00:00
 fi
 
 #where should the outputs be stored?

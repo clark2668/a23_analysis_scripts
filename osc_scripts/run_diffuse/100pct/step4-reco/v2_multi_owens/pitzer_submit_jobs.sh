@@ -2,11 +2,11 @@
 
 #./owens_doThis.sh $SIMULATION $STATION $YEAR $FILTERDIR $TMPDIR $F1 $P1 &
 
-station="2"
+station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-year="2015"
+year="2013"
 echo '[ Station: ' $year ' ]'
 export year
 
@@ -31,8 +31,8 @@ FilterDir="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A${station
 echo '[ Run summary directory: ' $FilterDir ' ]'
 export FilterDir
 
-# account=PCON0003
-account=PAS0654
+account=PCON0003
+#account=PAS0654
 
 if [ $simulation == '1' ] #is simulation
 then
@@ -46,11 +46,12 @@ then
 elif [ $simulation == '0' ] #is not simulation
 then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/A${station}/${year}/"
-	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/data_filterproblems100_A${station}_${year}.txt"
-	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile2/data_recoproblems100_A${station}_${year}.txt"
+	#readfile=../../step1-make_ped_pairs/A${station}_${year}_File_Ped_Pairs_pitzer.txt
+	readfile=../../step1-make_ped_pairs/A${station}_${year}_File_PedPairs_LongRuns.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/100pct_try2/err_out_logs
-	walltime=72:00:00
-	# walltime=00:10:00
+	#walltime=36:00:00
+	walltime=72:00:00 #super long walltime for the "special" runs in A3 2013
 fi
 
 #where should the outputs be stored?
