@@ -2,12 +2,12 @@
 source ~/bashrc/A23Diffuse_bashrc.sh
 
 #what station?
-STATION="2"
+STATION="3"
 echo '[ Station: ' $STATION ' ]'
 export STATION
 
 #what year?
-CONFIG="2014" #this will work, when only doing data
+CONFIG="2013" #this will work, when only doing data
 echo '[ Station: ' $CONFIG ' ]'
 export CONFIG
 
@@ -27,7 +27,8 @@ SUMMARYDIR="/data/user/brianclark/A23Diffuse/100pct_try2/RunSummary/A${STATION}/
 echo '[ Run summary directory: ' $SUMMARYDIR ' ]'
 export SUMMARYDIR
 
-readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
+#readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
+readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs_LongRuns.txt
 #readfile=problems_cw_${CONFIG}.txt
 
 FileNumber=0

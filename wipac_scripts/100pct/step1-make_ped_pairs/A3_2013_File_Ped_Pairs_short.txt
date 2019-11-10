@@ -1,0 +1,2 @@
+/data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1000/event1000.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_000983/pedestalValues.run000983.dat
+/data/wipac/ARA/2013/filtered/full2013Data/ARA03/root/run1001/event1001.root /data/user/brianclark/A23Diffuse/100pct/peds/A3/2013/run_000983/pedestalValues.run000983.dat

@@ -2,12 +2,12 @@
 source ~/bashrc/A23Diffuse_bashrc.sh
 
 #what station?
-STATION="2"
+STATION="3"
 echo '[ Station: ' $STATION ' ]'
 export STATION
 
 #what year?
-CONFIG="2016" #this will work, when only doing data
+CONFIG="2015" #this will work, when only doing data
 echo '[ Station: ' $CONFIG ' ]'
 export CONFIG
 
