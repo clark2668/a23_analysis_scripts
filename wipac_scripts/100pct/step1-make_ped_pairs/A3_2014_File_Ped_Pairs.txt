@@ -1099,7 +1099,6 @@
 /data/wipac/ARA/2014/blinded/L1/ARA03/1106/run003514/event003514.root /data/wipac/ARA/2014/calibration/pedestals/ARA03/pedestalValues.run003512.dat
 /data/wipac/ARA/2014/blinded/L1/ARA03/1106/run003515/event003515.root /data/wipac/ARA/2014/calibration/pedestals/ARA03/pedestalValues.run003512.dat
 /data/wipac/ARA/2014/blinded/L1/ARA03/1106/run003516/event003516.root /data/wipac/ARA/2014/calibration/pedestals/ARA03/pedestalValues.run003512.dat
-/data/wipac/ARA/2014/blinded/L1/ARA03/1106/run003517/event003517.root /data/wipac/ARA/2014/calibration/pedestals/ARA03/pedestalValues.run003512.dat
 /data/wipac/ARA/2014/blinded/L1/ARA03/1106/run003518/event003518.root /data/wipac/ARA/2014/calibration/pedestals/ARA03/pedestalValues.run003517.dat
 /data/wipac/ARA/2014/blinded/L1/ARA03/1107/run003519/event003519.root /data/wipac/ARA/2014/calibration/pedestals/ARA03/pedestalValues.run003517.dat
 /data/wipac/ARA/2014/blinded/L1/ARA03/1107/run003520/event003520.root /data/wipac/ARA/2014/calibration/pedestals/ARA03/pedestalValues.run003517.dat
