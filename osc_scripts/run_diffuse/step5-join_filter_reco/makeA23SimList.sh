@@ -13,4 +13,4 @@ echo "[ Station: " $station " ] "
 echo "[ Config: " $config " ] "
 echo "[ Energy: " $energy " ] "
 
-find /fs/scratch/PAS0654/ara/sim/ProcessedFile/A${station}/c${config}/E${energy}/*filter* > A${station}_c${config}_E${energy}_FilterList.txt
+find /fs/project/PAS0654/ARA_DATA/A23/sim/ProcessedFile/A${station}/c${config}/E${energy}/*filter* > A${station}_c${config}_E${energy}_FilterList.txt
