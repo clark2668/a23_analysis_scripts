@@ -1,0 +1,117 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0118/run002906/event002906.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0117/run002905/event002905.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0122/run002935/event002935.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0122/run002932/event002932.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0119/run002912/event002912.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0120/run002916/event002916.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0120/run002915/event002915.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0118/run002907/event002907.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0122/run002933/event002933.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0122/run002934/event002934.root
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 40000
+on event 40000
+on event 40000
+on event 40000
+on event 40000
+on event 40000
+on event 40000
+on event 40000
+on event 40000
+maxValue is 21
+on event 40000
+on event 50000
+on event 50000
+on event 50000
+on event 50000
+on event 50000
+on event 50000
+on event 50000
+on event 50000
+on event 50000
+on event 60000
+on event 60000
+on event 60000
+on event 60000
+on event 60000
+on event 60000
+on event 60000
+on event 60000
+on event 60000
+on event 70000
+on event 70000
+on event 70000
+on event 70000
+on event 70000
+on event 70000
+on event 70000
+on event 70000
+on event 70000
+on event 80000
+on event 80000
+on event 80000
+on event 80000
+on event 80000
+on event 80000
+on event 80000
+on event 80000
+on event 80000
+on event 90000
+on event 90000
+on event 90000
+on event 90000
+on event 90000
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:11:40
+walltime=00:15:29
+mem=0.985GB
+vmem=3.944GB
+-----------------------
+Resource units charged (estimate):
+0.258 RUs
+-----------------------

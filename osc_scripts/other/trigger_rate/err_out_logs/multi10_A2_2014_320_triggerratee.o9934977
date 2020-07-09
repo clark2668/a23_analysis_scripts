@@ -1,0 +1,45 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003304/event003304.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003301/event003301.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003303/event003303.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003309/event003309.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003306/event003306.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003302/event003302.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003300/event003300.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003308/event003308.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003305/event003305.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/0324/run003307/event003307.root
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+maxValue is 24
+maxValue is 23
+maxValue is 23
+maxValue is 22
+maxValue is 23
+maxValue is 22
+maxValue is 23
+maxValue is 27
+maxValue is 23
+maxValue is 19
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:17
+walltime=00:00:21
+mem=0.046GB
+vmem=1.077GB
+-----------------------
+Resource units charged (estimate):
+0.005 RUs
+-----------------------

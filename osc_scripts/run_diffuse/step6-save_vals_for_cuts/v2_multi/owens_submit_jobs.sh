@@ -1,10 +1,10 @@
-!/bin/bash
+#!/bin/bash
 
 station="3"
 echo '[ Station: ' $station ' ]'
 export station
 
-simulation='0'
+simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
@@ -12,7 +12,7 @@ energy="224"
 echo '[ Energy: ' $energy ']'
 export energy
 
-config="2"
+config="5"
 echo '[ Config: ' $config ']'
 export config
 
@@ -69,17 +69,18 @@ export H_WFRMS_CUT
 if [ $simulation == '1' ] #is simulation
 then
 	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/sim/ValsForCuts/A${station}/c${config}/E${energy}"
-	# OutputDir="/fs/scratch/PAS0654/ara/sim/ValsForCuts/A${station}/c${config}/E${energy}"
 	readfile=../sim_by_config/A${station}_c${config}_E${energy}_MergedFiles.txt
-	err_out_location=/fs/scratch/PAS0654/ara/sim/err_out_logs
+	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/sim/err_out_logs
 	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/sim/ValsForCuts/problems_savevals_A${station}_c${config}_E${energy}_rd1.txt"
 	walltime=00:10:00
 elif [ $simulation == '0' ] #is not simulation
 then
-	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts/A${station}/c${config}"
-	readfile=../data_by_config/A${station}_c${config}_MergedFiles_owens.txt
+	# OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts/A${station}/c${config}"
+	OutputDir="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts_v2/A${station}/c${config}" #slightly different location for now
+	# readfile=../data_by_config/A${station}_c${config}_MergedFiles_owens.txt
+	readfile=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts_v2/problems_savevals_A${station}_c${config}_rd2.txt
 	err_out_location=/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/err_out_logs
-	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts/problems_savevals_A${station}_c${config}_rd1.txt"
+	ErrFile="/fs/project/PAS0654/ARA_DATA/A23/10pct_redo/ValsForCuts_v2/problems_savevals_A${station}_c${config}_rd3.txt"
 	walltime=04:00:00
 fi
 
@@ -97,10 +98,15 @@ export LaunchDir
 
 #we have to define where in the list of data files we want to start
 FileNumberStart=0
-FileNumberEnd=5000
+FileNumberEnd=50000
+# FileNumberEnd=1
 
 FileNumber=0
-while read line1 && read line2 && read line3 && read line4 && read line5 && read line6 && read line7 && read line8 && read line9 && read line10 && read line11 && read line12 && read line13 && read line14 && read line15 && read line16 && read line17 && read line18 && read line19 && read line20 && read line21 && read line22 && read line23 && read line24 && read line25 && read line26 && read line27 && read line28
+# while read line1 && read line2 && read line3 && read line4 && read line5 && read line6 && read line7 && read line8 && read line9 && read line10 && read line11 && read line12 && read line13 && read line14 && read line15 && read line16 && read line17 && read line18 && read line19 && read line20 && read line21 && read line22 && read line23 && read line24 && read line25 && read line26 && read line27 && read line28
+while read line1 && read line2 && read line3 && read line4 && read line5 && read line6 && read line7 && read line8 && read line9 && read line10
+# while read line1 && read line2 && read line3 && read line4 && read line5 && read line6 && read line7 && read line8 && read line9 && read line10 && read line11 && read line12 && read line13 && read line14
+# while read line1 && read line2 && read line3
+# while read line1
 do
 
 	if (( $FileNumber >= $FileNumberStart && $FileNumber <= $FileNumberEnd ))
@@ -200,6 +206,6 @@ do
 		echo "-----------------------------------"
 			
 	fi
-	FileNumber=$((FileNumber+28))
+	FileNumber=$((FileNumber+10))
 
 done < $readfile

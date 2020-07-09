@@ -1,0 +1,133 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3094_filter.root
+runNum is 3094
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3092_filter.root
+runNum is 3092
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3085_filter.root
+runNum is 3085
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3095_filter.root
+runNum is 3095
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3084_filter.root
+runNum is 3084
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3089_filter.root
+runNum is 3089
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3086_filter.root
+runNum is 3086
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3091_filter.root
+runNum is 3091
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3087_filter.root
+runNum is 3087
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2014/processed_station_3_run_3090_filter.root
+runNum is 3090
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 20000
+on event 10000
+on event 10000
+on event 20000
+on event 30000
+on event 30000
+on event 20000
+on event 20000
+on event 30000
+on event 30000
+on event 30000
+on event 30000
+on event 10000
+on event 30000
+on event 20000
+on event 40000
+on event 30000
+on event 40000
+on event 40000
+on event 30000
+on event 20000
+on event 40000
+on event 40000
+on event 40000
+on event 40000
+on event 30000
+on event 50000
+on event 60000
+on event 40000
+on event 70000
+on event 80000
+on event 50000
+on event 60000
+on event 50000
+on event 60000
+maxValue is 18
+on event 50000
+on event 40000
+on event 60000
+on event 50000
+on event 60000
+on event 70000
+on event 80000
+on event 70000
+on event 70000
+maxValue is 11
+on event 80000
+on event 80000
+on event 50000
+on event 60000
+maxValue is 13
+maxValue is 12
+on event 40000
+on event 70000
+on event 80000
+maxValue is 12
+on event 50000
+on event 60000
+on event 70000
+on event 50000
+on event 80000
+on event 60000
+maxValue is 19
+on event 70000
+on event 80000
+on event 50000
+on event 60000
+maxValue is 13
+on event 70000
+maxValue is 11
+on event 80000
+maxValue is 19
+on event 50000
+on event 60000
+on event 70000
+on event 80000
+maxValue is 15
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:24
+walltime=00:00:13
+mem=0.266GB
+vmem=1.520GB
+-----------------------
+Resource units charged (estimate):
+0.003 RUs
+-----------------------

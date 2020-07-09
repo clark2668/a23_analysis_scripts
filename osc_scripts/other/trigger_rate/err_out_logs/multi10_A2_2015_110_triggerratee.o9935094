@@ -1,0 +1,45 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004900/event004900.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004896/event004896.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004902/event004902.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004895/event004895.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004898/event004898.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004899/event004899.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004901/event004901.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004897/event004897.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004903/event004903.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/0121/run004904/event004904.root
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+maxValue is 4
+maxValue is 4
+on event 0
+maxValue is 4
+maxValue is 4
+maxValue is 4
+maxValue is 4
+maxValue is 4
+maxValue is 4
+maxValue is 4
+maxValue is 4
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:12
+walltime=00:00:10
+mem=0.001GB
+vmem=0.000GB
+-----------------------
+Resource units charged (estimate):
+0.002 RUs
+-----------------------

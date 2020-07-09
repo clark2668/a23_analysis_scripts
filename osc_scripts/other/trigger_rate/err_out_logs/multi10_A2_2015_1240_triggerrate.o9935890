@@ -1,0 +1,60 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6466_filter.root
+runNum is 6466
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6472_filter.root
+runNum is 6472
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6478_filter.root
+runNum is 6478
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6468_filter.root
+runNum is 6468
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6471_filter.root
+runNum is 6471
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6467_filter.root
+runNum is 6467
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6480_filter.root
+runNum is 6480
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6473_filter.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6470_filter.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2015/processed_station_2_run_6465_filter.root
+runNum is 6473
+runNum is 6470
+runNum is 6465
+on event 0
+maxValue is 8
+on event 0
+on event 0
+maxValue is 6
+maxValue is 13
+on event 0
+on event 0
+maxValue is 14
+on event 0
+on event 0
+maxValue is 14
+maxValue is 13
+maxValue is 15
+on event 0
+on event 0
+on event 10000
+on event 0
+on event 10000
+on event 20000
+maxValue is 15
+on event 10000
+maxValue is 15
+on event 20000
+on event 30000
+maxValue is 14
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:10
+walltime=00:00:09
+mem=0.001GB
+vmem=0.000GB
+-----------------------
+Resource units charged (estimate):
+-----------------------

@@ -1,7 +1,7 @@
 #!/bin/bash
 eval 'source /users/PAS0654/osu0673/A23_analysis_new2/env.sh'
 cd $RUNDIR
-./bin/v2_SaveVals100 $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10} ${11} ${12} ${13} ${14}
+./bin/v2_SaveVals100_A3 $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10} ${11} ${12} ${13} ${14}
 
 # ./bin/v2_SaveVals100 
 # 1 <isSim?> 

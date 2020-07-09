@@ -1,0 +1,75 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1804_filter.root
+runNum is 1804
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1802_filter.root
+runNum is 1802
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1800_filter.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1801_filter.root
+runNum is 1800
+runNum is 1801
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1797_filter.root
+runNum is 1797
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1807_filter.root
+runNum is 1807
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1806_filter.root
+runNum is 1806
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1796_filter.root
+runNum is 1796
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1805_filter.root
+runNum is 1805
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1799_filter.root
+runNum is 1799
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 10000
+on event 20000
+maxValue is 42
+on event 10000
+on event 10000
+on event 10000
+on event 10000
+on event 20000
+on event 10000
+maxValue is 42
+on event 10000
+on event 20000
+maxValue is 44
+on event 10000
+on event 10000
+on event 10000
+on event 20000
+on event 20000
+maxValue is 41
+maxValue is 42
+on event 20000
+maxValue is 45
+on event 20000
+maxValue is 44
+on event 20000
+maxValue is 44
+on event 20000
+on event 20000
+maxValue is 45
+maxValue is 46
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:12
+walltime=00:00:10
+mem=0.001GB
+vmem=0.000GB
+-----------------------
+Resource units charged (estimate):
+0.002 RUs
+-----------------------

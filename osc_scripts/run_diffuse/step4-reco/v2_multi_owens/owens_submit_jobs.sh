@@ -12,8 +12,8 @@ simulation='1'
 echo '[ Simulation: ' $simulation ' ]'
 export simulation
 
-RadiusBin=6
-# RadiusBin=19
+#RadiusBin=6
+RadiusBin=19
 echo '[ Radius Bin: ' $RadiusBin ' ]'
 export RadiusBin
 

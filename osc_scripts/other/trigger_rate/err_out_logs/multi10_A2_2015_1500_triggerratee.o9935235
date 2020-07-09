@@ -1,0 +1,35 @@
+Usage
+./trigger_rate <station> <output_location> <filename>
+Usage
+./trigger_rate <station> <output_location> <filename>
+Usage
+./trigger_rate <station> <output_location> <filename>
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/1228/run006632/event006632.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/1229/run006637/event006637.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/1229/run006638/event006638.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/1229/run006634/event006634.root
+Usage
+./trigger_rate <station> <output_location> <filename>
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/1229/run006635/event006635.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2015/1228/run006633/event006633.root
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:39
+walltime=00:00:30
+mem=0.512GB
+vmem=2.317GB
+-----------------------
+Resource units charged (estimate):
+0.008 RUs
+-----------------------

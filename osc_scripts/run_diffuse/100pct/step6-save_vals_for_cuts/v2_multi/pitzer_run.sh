@@ -1,5 +1,6 @@
 #/bin/bash
 #PBS -l nodes=1:ppn=1
+#PBS -l mem=4GB
 
 # ./bin/v2_SaveVals100 
 # 1 <isSim?> 

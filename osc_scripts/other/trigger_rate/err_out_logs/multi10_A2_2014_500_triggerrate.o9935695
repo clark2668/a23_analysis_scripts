@@ -1,0 +1,93 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3702_filter.root
+runNum is 3702
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3700_filter.root
+runNum is 3700
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3701_filter.root
+runNum is 3701
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3705_filter.root
+runNum is 3705
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3699_filter.root
+runNum is 3699
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3703_filter.root
+runNum is 3703
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3704_filter.root
+runNum is 3704
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3707_filter.root
+runNum is 3707
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3706_filter.root
+runNum is 3706
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A2/2014/processed_station_2_run_3708_filter.root
+runNum is 3708
+on event 0
+maxValue is 10
+on event 0
+maxValue is 17
+on event 0
+maxValue is 19
+on event 0
+maxValue is 45
+on event 0
+on event 0
+on event 0
+maxValue is 16
+maxValue is 39
+maxValue is 46
+on event 0
+on event 0
+on event 0
+on event 10000
+on event 10000
+on event 10000
+on event 20000
+on event 20000
+on event 30000
+on event 20000
+on event 30000
+on event 30000
+on event 40000
+on event 40000
+on event 40000
+on event 50000
+on event 50000
+on event 50000
+on event 60000
+on event 60000
+on event 70000
+on event 70000
+on event 60000
+on event 70000
+on event 80000
+on event 80000
+on event 90000
+maxValue is 26
+on event 80000
+on event 90000
+on event 100000
+on event 110000
+on event 90000
+on event 120000
+on event 100000
+on event 110000
+on event 130000
+on event 140000
+on event 120000
+on event 150000
+maxValue is 44
+on event 130000
+on event 140000
+maxValue is 34
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:16
+walltime=00:00:18
+mem=0.312GB
+vmem=0.971GB
+-----------------------
+Resource units charged (estimate):
+0.005 RUs
+-----------------------

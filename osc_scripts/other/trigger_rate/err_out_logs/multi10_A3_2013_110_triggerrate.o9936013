@@ -1,0 +1,69 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1143_filter.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1142_filter.root
+runNum is 1143
+runNum is 1142
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1135_filter.root
+runNum is 1135
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1136_filter.root
+runNum is 1136
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1145_filter.root
+runNum is 1145
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1139_filter.root
+runNum is 1139
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1141_filter.root
+runNum is 1141
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1144_filter.root
+runNum is 1144
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1140_filter.root
+runNum is 1140
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct_try2/ProcessedFile/A3/2013/processed_station_3_run_1138_filter.root
+runNum is 1138
+on event 0
+maxValue is 36
+on event 0
+maxValue is 35
+on event 0
+maxValue is 31
+on event 0
+maxValue is 39
+on event 0
+maxValue is 40
+on event 0
+maxValue is 40
+on event 0
+maxValue is 38
+on event 0
+maxValue is 34
+on event 0
+maxValue is 23
+on event 0
+on event 10000
+on event 20000
+on event 30000
+on event 40000
+on event 50000
+on event 60000
+on event 70000
+on event 80000
+on event 90000
+on event 100000
+on event 110000
+on event 120000
+on event 130000
+on event 140000
+maxValue is 31
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:10
+walltime=00:00:12
+mem=0.083GB
+vmem=0.690GB
+-----------------------
+Resource units charged (estimate):
+0.003 RUs
+-----------------------

@@ -1,0 +1,35 @@
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1104/run004478/event004478.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1102/run004468/event004468.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1104/run004477/event004477.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1102/run004471/event004471.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1102/run004469/event004469.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1103/run004473/event004473.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1103/run004474/event004474.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1104/run004479/event004479.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1103/run004472/event004472.root
+On file /fs/project/PAS0654/ARA_DATA/A23/100pct/RawData/A2/2014/1103/run004476/event004476.root
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+on event 0
+
+-----------------------
+Resources requested:
+nodes=1:ppn=10
+mem=30gb
+-----------------------
+Resources used:
+cput=00:00:58
+walltime=00:00:48
+mem=0.787GB
+vmem=3.764GB
+-----------------------
+Resource units charged (estimate):
+0.013 RUs
+-----------------------

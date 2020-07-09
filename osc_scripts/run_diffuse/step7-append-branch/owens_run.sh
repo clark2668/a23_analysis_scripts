@@ -1,6 +1,7 @@
 #/bin/bash
-#PBS -l nodes=1:ppn=8
+#PBS -l nodes=1:ppn=7
 #PBS -A PAS0654
+#PBS -l mem=28GB
 
 cd $LAUNCHDIR
 
