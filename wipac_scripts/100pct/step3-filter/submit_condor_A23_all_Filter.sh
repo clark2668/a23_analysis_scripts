@@ -17,6 +17,7 @@ export SIMULATION
 
 OutputDir="/data/user/brianclark/A23Diffuse/100pct_try2/ProcessedFile/A${STATION}/${CONFIG}"
 echo '[ Processed file output directory: ' $OutputDir ' ]'
+OutputDir="/data/user/brianclark/A23Diffuse/ForMYL"
 export OutputDir
 
 SUMMARYDIR="/data/user/brianclark/A23Diffuse/100pct_try2/RunSummary/A${STATION}/${CONFIG}"

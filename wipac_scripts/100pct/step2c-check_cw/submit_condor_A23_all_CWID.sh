@@ -7,7 +7,7 @@ echo '[ Station: ' $STATION ' ]'
 export STATION
 
 #what year?
-CONFIG="2013" #this will work, when only doing data
+CONFIG="2016" #this will work, when only doing data
 echo '[ Station: ' $CONFIG ' ]'
 export CONFIG
 
@@ -27,9 +27,11 @@ SUMMARYDIR="/data/user/brianclark/A23Diffuse/100pct_try2/RunSummary/A${STATION}/
 echo '[ Run summary directory: ' $SUMMARYDIR ' ]'
 export SUMMARYDIR
 
-#readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
-readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs_LongRuns.txt
+readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs.txt
+# readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs_LongRuns.txt
 #readfile=problems_cw_${CONFIG}.txt
+# readfile=/data/user/brianclark/A23Diffuse/100pct_try2/CWID/CWIDproblems_A${STATION}_${CONFIG}_rd1.txt
+# readfile=../step1-make_ped_pairs/A${STATION}_${CONFIG}_File_Ped_Pairs_LongRuns_more.txt
 
 FileNumber=0
 

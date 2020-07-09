@@ -2,7 +2,7 @@
 
 eval 'source /home/brianclark/A23_analysis_new2/env.sh'
 cd $ARA_ROOT_DIR
-./bin/v2_CW100 $SIMULATION $STATION $CONFIG 1 $FILTERFILEDIR $SUMMARYDIR $TMPDIR/ $FileTarget
+./bin/v2_CW100_Correct $SIMULATION $STATION $CONFIG 1 $FILTERFILEDIR $SUMMARYDIR $TMPDIR/ $FileTarget
 
 if [ $? -ne 0 ] #error handle if something has gone wrong
 then
